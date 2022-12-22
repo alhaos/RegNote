@@ -1,0 +1,4 @@
+---
+SourceDirectory: .\Source
+LogDirectory: .\Log
+DatabaseFileName: .\RegNote.db

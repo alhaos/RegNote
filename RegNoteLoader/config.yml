@@ -1,4 +1,4 @@
 ---
 SourceDirectory: .\Source
 LogDirectory: .\Log
-DatabaseFileName: .\RegNote.db
+DatabaseFileName: D:\repository\RegNote\RegNoteDB\RegNote.db

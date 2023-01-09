@@ -128,7 +128,7 @@ func ExtractTests(files []string) ([]RawTest, error) {
 					Filename:   file,
 					Accession:  records[i][0],
 					TestName:   records[i][1],
-					TestResult: records[i][2],
+					TestResult: interpretTestResult(records[i][2]),
 				}
 				RawTests = append(RawTests, rawTest)
 			}
@@ -139,6 +139,21 @@ func ExtractTests(files []string) ([]RawTest, error) {
 		}
 	}
 	return RawTests, nil
+}
+
+func interpretTestResult(r string) string {
+	switch r {
+	case "D":
+		return "Detected"
+	case "ND":
+		return "Not detected"
+	case "INV":
+		return "Invalid"
+	case "IN":
+		return "Presumptive positive"
+	default:
+		return r
+	}
 }
 
 // DumpTests dump tests to table

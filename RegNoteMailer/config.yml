@@ -1,0 +1,4 @@
+---
+MSSQLConnString: sqlserver://acif:cipher-84T9u@192.168.101.222:1433?database=FINANCE
+SQLiteConnString: file:D:\repository\RegNote\RegNoteDB\RegNote.db?version=3
+LogDirectory: .\Log

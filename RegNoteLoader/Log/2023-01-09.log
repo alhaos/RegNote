@@ -1,0 +1,952 @@
+2023/01/09 02:17:39 loader start
+2023/01/09 02:17:39 RegNoteLoader start
+2023/01/09 02:17:39 9 files found in: .\Source 
+2023/01/09 02:17:39 Table FILES_BUFFER cleared
+2023/01/09 02:17:40 All file names inserted into FILES_BUFFER
+2023/01/09 02:17:40 9 new file(s) found
+2023/01/09 02:17:40 Process file: Source\r_COVID 01-08-23 RUN 1_20230108064502.csv
+2023/01/09 02:17:40 Process file: Source\r_COVID 01-08-23 RUN 2_20230108100005.csv
+2023/01/09 02:17:40 Process file: Source\r_COVID 010723 RUN 9_20230108034503.csv
+2023/01/09 02:17:40 Process file: Source\r_COVID 010723 RUN 9_20230108035005.csv
+2023/01/09 02:17:40 Process file: Source\r_COVID 120322 RPT RUN 7A_20221204030502.csv
+2023/01/09 02:17:40 Process file: Source\r_COVID 120322 RUN 1_20221203050503.csv
+2023/01/09 02:17:40 Process file: Source\r_RETESTCOVID 01-08-23 RUN 2A_20230108100005.csv
+2023/01/09 02:17:40 Process file: Source\r_RPP NJ 01-08-23 RUN 1_20230108075503.csv
+2023/01/09 02:17:40 Process file: Source\r_RPP NJ2 01.08.23_20230108133502.csv
+2023/01/09 02:17:40 Found test 2300735178, C19, Detected
+2023/01/09 02:17:40 Found test 2300735178, C19, Detected
+2023/01/09 02:17:40 Found test 2300735176, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735176, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735174, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735174, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735177, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735177, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735188, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735188, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735168, C19, Detected
+2023/01/09 02:17:40 Found test 2300735168, C19, Detected
+2023/01/09 02:17:40 Found test 2300735180, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735180, C19, Not detected
+2023/01/09 02:17:40 Found test 2300701103, C19, Not detected
+2023/01/09 02:17:40 Found test 2300701103, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735166, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735166, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735152, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735152, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735247, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735247, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735244, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735244, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735246, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735246, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735248, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735248, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735245, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735245, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735235, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735235, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735242, C19, Detected
+2023/01/09 02:17:40 Found test 2300735242, C19, Detected
+2023/01/09 02:17:40 Found test 2300735250, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735250, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735249, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735249, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735217, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735217, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735193, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735193, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735215, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735215, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735192, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735192, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735212, C19, Detected
+2023/01/09 02:17:40 Found test 2300735212, C19, Detected
+2023/01/09 02:17:40 Found test 2300735213, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735213, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735203, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735203, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735194, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735194, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735195, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735195, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735202, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735202, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735214, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735214, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735218, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735218, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735190, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735190, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735142, C19, Detected
+2023/01/09 02:17:40 Found test 2300735142, C19, Detected
+2023/01/09 02:17:40 Found test 2300735144, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735144, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735147, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735147, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735165, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735165, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735172, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735172, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735173, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735173, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735189, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735189, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735181, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735181, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735184, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735184, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735191, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735191, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735183, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735183, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735187, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735187, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735182, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735182, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735169, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735169, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735186, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735186, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735216, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735216, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735204, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735204, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735207, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735207, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735199, C19, Detected
+2023/01/09 02:17:40 Found test 2300735199, C19, Detected
+2023/01/09 02:17:40 Found test 2300735197, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735197, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735201, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735201, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735198, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735198, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735205, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735205, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735210, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735210, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735208, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735208, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735206, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735206, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735211, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735211, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735200, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735200, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735196, C19, Detected
+2023/01/09 02:17:40 Found test 2300735196, C19, Detected
+2023/01/09 02:17:40 Found test 2300735219, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735219, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735226, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735226, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735221, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735221, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735209, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735209, C19, Not detected
+2023/01/09 02:17:40 Found test 2300701561, C19, Not detected
+2023/01/09 02:17:40 Found test 2300701561, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735225, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735225, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735222, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735222, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735236, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735236, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735238, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735238, C19, Not detected
+2023/01/09 02:17:40 Found test 2300695159, C19, Not detected
+2023/01/09 02:17:40 Found test 2300695159, C19, Not detected
+2023/01/09 02:17:40 Found test 2300695156, C19, Not detected
+2023/01/09 02:17:40 Found test 2300695156, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735170, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735170, C19, Not detected
+2023/01/09 02:17:40 Found test 2300695158, C19, Detected
+2023/01/09 02:17:40 Found test 2300695158, C19, Detected
+2023/01/09 02:17:40 Found test 2300735185, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735185, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735179, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735179, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735167, C19, Detected
+2023/01/09 02:17:40 Found test 2300735167, C19, Detected
+2023/01/09 02:17:40 Found test 2300695160, C19, Not detected
+2023/01/09 02:17:40 Found test 2300695160, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735227, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735227, C19, Not detected
+2023/01/09 02:17:40 Found test 2300695161, C19, Not detected
+2023/01/09 02:17:40 Found test 2300695161, C19, Not detected
+2023/01/09 02:17:40 Found test 2300695323, C19, Not detected
+2023/01/09 02:17:40 Found test 2300695323, C19, Not detected
+2023/01/09 02:17:40 Found test 2300701224, C19, Not detected
+2023/01/09 02:17:40 Found test 2300701224, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735248, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735248, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735249, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735249, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735236, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735236, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735245, C19, Detected
+2023/01/09 02:17:40 Found test 2300735245, C19, Detected
+2023/01/09 02:17:40 Found test 2300735246, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735246, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735247, C19, Detected
+2023/01/09 02:17:40 Found test 2300735247, C19, Detected
+2023/01/09 02:17:40 Found test 2300735251, C19, Detected
+2023/01/09 02:17:40 Found test 2300735251, C19, Detected
+2023/01/09 02:17:40 Found test 2300735255, C19, Detected
+2023/01/09 02:17:40 Found test 2300735255, C19, Detected
+2023/01/09 02:17:40 Found test 2300735250, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735250, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735244, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735244, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735252, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735252, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735243, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735243, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735253, C19, Detected
+2023/01/09 02:17:40 Found test 2300735253, C19, Detected
+2023/01/09 02:17:40 Found test 2300735264, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735264, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735266, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735266, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735263, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735263, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735265, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735265, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735259, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735259, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735267, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735267, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735261, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735261, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735256, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735256, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735254, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735254, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735258, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735258, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735260, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735260, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735273, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735273, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735272, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735272, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735269, C19, Detected
+2023/01/09 02:17:40 Found test 2300735269, C19, Detected
+2023/01/09 02:17:40 Found test 2300735262, C19, Detected
+2023/01/09 02:17:40 Found test 2300735262, C19, Detected
+2023/01/09 02:17:40 Found test 2300735278, C19, Detected
+2023/01/09 02:17:40 Found test 2300735278, C19, Detected
+2023/01/09 02:17:40 Found test 2300735277, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735277, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735268, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735268, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735270, C19, Detected
+2023/01/09 02:17:40 Found test 2300735270, C19, Detected
+2023/01/09 02:17:40 Found test 2300735280, C19, Detected
+2023/01/09 02:17:40 Found test 2300735280, C19, Detected
+2023/01/09 02:17:40 Found test 2300735281, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735281, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735271, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735271, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735279, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735279, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735274, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735274, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735276, C19, Detected
+2023/01/09 02:17:40 Found test 2300735276, C19, Detected
+2023/01/09 02:17:40 Found test 2300735228, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735228, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735230, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735230, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735231, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735231, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735237, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735237, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735257, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735257, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735233, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735233, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735232, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735232, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735234, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735234, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735223, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735223, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735241, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735241, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735239, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735239, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735224, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735224, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735240, C19, Detected
+2023/01/09 02:17:40 Found test 2300735240, C19, Detected
+2023/01/09 02:17:40 Found test 2300735275, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735275, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735078, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735078, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770003, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770003, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770007, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770007, C19, Not detected
+2023/01/09 02:17:40 Found test 2300700952, C19, Not detected
+2023/01/09 02:17:40 Found test 2300700952, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735074, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735074, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735080, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735080, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735085, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735085, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735088, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735088, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770001, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770001, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770008, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770008, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770000, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770000, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770002, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770002, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770005, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770005, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735086, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735086, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735084, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735084, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735077, C19, Detected
+2023/01/09 02:17:40 Found test 2300735077, C19, Detected
+2023/01/09 02:17:40 Found test 2300735108, C19, Detected
+2023/01/09 02:17:40 Found test 2300735108, C19, Detected
+2023/01/09 02:17:40 Found test 2300735141, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735141, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735112, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735112, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735114, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735114, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735109, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735109, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735106, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735106, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735111, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735111, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735101, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735101, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735110, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735110, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735092, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735092, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735091, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735091, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735090, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735090, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735089, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735089, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735095, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735095, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735105, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735105, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735113, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735113, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735094, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735094, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735103, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735103, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735099, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735099, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735115, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735115, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735098, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735098, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735104, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735104, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735107, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735107, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735097, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735097, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735096, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735096, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735102, C19, ON
+2023/01/09 02:17:40 Found test 2300735102, C19, ON
+2023/01/09 02:17:40 Found test 2300735100, C19, ON
+2023/01/09 02:17:40 Found test 2300735100, C19, ON
+2023/01/09 02:17:40 Found test 2300700858, C19, Not detected
+2023/01/09 02:17:40 Found test 2300700858, C19, Not detected
+2023/01/09 02:17:40 Found test 2300700670, C19, Not detected
+2023/01/09 02:17:40 Found test 2300700670, C19, Not detected
+2023/01/09 02:17:40 Found test 2300700578, C19, Not detected
+2023/01/09 02:17:40 Found test 2300700578, C19, Not detected
+2023/01/09 02:17:40 Found test 2300700718, C19, Not detected
+2023/01/09 02:17:40 Found test 2300700718, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735160, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735160, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735159, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735159, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735158, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735158, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735131, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735131, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735136, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735136, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735163, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735163, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735137, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735137, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735135, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735135, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735145, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735145, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735140, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735140, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735138, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735138, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735153, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735153, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735119, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735119, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735124, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735124, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735134, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735134, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735118, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735118, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735130, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735130, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735128, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735128, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735117, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735117, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735125, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735125, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735139, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735139, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735133, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735133, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735151, C19, ON
+2023/01/09 02:17:40 Found test 2300735151, C19, ON
+2023/01/09 02:17:40 Found test 2300735143, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735143, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735132, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735132, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735123, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735123, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735122, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735122, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735121, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735121, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735164, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735164, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735120, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735120, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735149, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735149, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735162, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735162, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735116, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735116, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735161, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735161, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735148, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735148, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735150, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735150, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735155, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735155, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735156, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735156, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735146, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735146, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735154, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735154, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735129, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735129, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735126, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735126, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735157, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735157, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735127, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735127, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735078, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735078, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770003, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770003, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770007, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770007, C19, Not detected
+2023/01/09 02:17:40 Found test 2300700952, C19, Not detected
+2023/01/09 02:17:40 Found test 2300700952, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735074, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735074, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735080, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735080, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735085, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735085, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735088, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735088, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770001, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770001, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770008, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770008, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770000, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770000, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770002, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770002, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770005, C19, Not detected
+2023/01/09 02:17:40 Found test 2300770005, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735086, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735086, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735084, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735084, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735077, C19, Detected
+2023/01/09 02:17:40 Found test 2300735077, C19, Detected
+2023/01/09 02:17:40 Found test 2300735108, C19, Detected
+2023/01/09 02:17:40 Found test 2300735108, C19, Detected
+2023/01/09 02:17:40 Found test 2300735141, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735141, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735112, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735112, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735114, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735114, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735109, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735109, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735106, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735106, C19, Not detected
+2023/01/09 02:17:40 Found test 2300735111, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735111, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735101, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735101, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735110, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735110, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735092, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735092, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735091, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735091, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735090, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735090, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735089, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735089, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735095, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735095, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735105, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735105, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735113, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735113, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735094, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735094, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735103, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735103, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735099, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735099, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735115, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735115, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735098, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735098, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735104, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735104, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735107, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735107, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735097, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735097, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735096, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735096, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735102, C19, ON
+2023/01/09 02:17:41 Found test 2300735102, C19, ON
+2023/01/09 02:17:41 Found test 2300735100, C19, ON
+2023/01/09 02:17:41 Found test 2300735100, C19, ON
+2023/01/09 02:17:41 Found test 2300700858, C19, Not detected
+2023/01/09 02:17:41 Found test 2300700858, C19, Not detected
+2023/01/09 02:17:41 Found test 2300700670, C19, Not detected
+2023/01/09 02:17:41 Found test 2300700670, C19, Not detected
+2023/01/09 02:17:41 Found test 2300700578, C19, Not detected
+2023/01/09 02:17:41 Found test 2300700578, C19, Not detected
+2023/01/09 02:17:41 Found test 2300700718, C19, Not detected
+2023/01/09 02:17:41 Found test 2300700718, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735160, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735160, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735159, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735159, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735158, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735158, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735131, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735131, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735136, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735136, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735163, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735163, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735137, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735137, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735135, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735135, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735145, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735145, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735140, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735140, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735138, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735138, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735153, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735153, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735119, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735119, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735124, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735124, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735134, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735134, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735118, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735118, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735130, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735130, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735128, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735128, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735117, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735117, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735125, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735125, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735139, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735139, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735133, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735133, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735151, C19, ON
+2023/01/09 02:17:41 Found test 2300735151, C19, ON
+2023/01/09 02:17:41 Found test 2300735143, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735143, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735132, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735132, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735123, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735123, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735122, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735122, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735121, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735121, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735164, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735164, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735120, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735120, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735149, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735149, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735162, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735162, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735116, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735116, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735161, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735161, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735148, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735148, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735150, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735150, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735155, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735155, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735156, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735156, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735146, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735146, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735154, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735154, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735129, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735129, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735126, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735126, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735157, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735157, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735127, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735127, C19, Not detected
+2023/01/09 02:17:41 Found test 2233570035, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233570035, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535698, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535698, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535638, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535638, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233735041, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233735041, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233635238, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233635238, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535652, C19R, Detected
+2023/01/09 02:17:41 Found test 2233535652, C19R, Detected
+2023/01/09 02:17:41 Found test 2233635035, C19R, Detected
+2023/01/09 02:17:41 Found test 2233635035, C19R, Detected
+2023/01/09 02:17:41 Found test 2233635638, C19R, Detected
+2023/01/09 02:17:41 Found test 2233635638, C19R, Detected
+2023/01/09 02:17:41 Found test 2233535600, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535600, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233735060, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233735060, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233635084, C19R, Detected
+2023/01/09 02:17:41 Found test 2233635084, C19R, Detected
+2023/01/09 02:17:41 Found test 2233601462, C19R, Detected
+2023/01/09 02:17:41 Found test 2233601462, C19R, Detected
+2023/01/09 02:17:41 Found test 2233535645, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535645, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535599, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535599, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535606, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535606, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535595, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535595, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233635481, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233635481, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233670006, C19R, Invalid
+2023/01/09 02:17:41 Found test 2233670006, C19R, Invalid
+2023/01/09 02:17:41 Found test 2233535636, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535636, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535615, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535615, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535504, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535504, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535492, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535492, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535642, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535642, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535588, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535588, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535506, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535506, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535569, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535569, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535648, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535648, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535490, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535490, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535605, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535605, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535616, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535616, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535509, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535509, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535634, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535634, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535557, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535557, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535538, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535538, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535527, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535527, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535508, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535508, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535625, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535625, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535505, C19R, Detected
+2023/01/09 02:17:41 Found test 2233535505, C19R, Detected
+2023/01/09 02:17:41 Found test 2233535541, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535541, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535534, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535534, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535575, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535575, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535586, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535586, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535593, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535593, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535570, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535570, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535584, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535584, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535525, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535525, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233735046, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233735046, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535611, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535611, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535576, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535576, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535607, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535607, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535539, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535539, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535542, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535542, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535589, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535589, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535561, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535561, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535483, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535483, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535623, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535623, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535582, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233535582, C19R, Not detected
+2023/01/09 02:17:41 Found test 2233635350, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635350, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635300, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635300, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635355, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635355, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635364, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635364, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635346, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635346, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635343, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635343, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635296, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635296, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635363, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635363, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635347, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635347, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635362, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635362, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635342, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635342, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635468, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635468, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635476, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635476, C19, Not detected
+2023/01/09 02:17:41 Found test 2233670017, C19, Not detected
+2023/01/09 02:17:41 Found test 2233670017, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635426, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635426, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635463, C19, Detected
+2023/01/09 02:17:41 Found test 2233635463, C19, Detected
+2023/01/09 02:17:41 Found test 2233635402, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635402, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635416, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635416, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635377, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635377, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635418, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635418, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635396, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635396, C19, Not detected
+2023/01/09 02:17:41 Found test 2233670020, C19, Not detected
+2023/01/09 02:17:41 Found test 2233670020, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635439, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635439, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635406, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635406, C19, Not detected
+2023/01/09 02:17:41 Found test 2233670015, C19, Not detected
+2023/01/09 02:17:41 Found test 2233670015, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635444, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635444, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635479, C19, Detected
+2023/01/09 02:17:41 Found test 2233635479, C19, Detected
+2023/01/09 02:17:41 Found test 2233635467, C19, Detected
+2023/01/09 02:17:41 Found test 2233635467, C19, Detected
+2023/01/09 02:17:41 Found test 2233635469, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635469, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635387, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635387, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635384, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635384, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635373, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635373, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635410, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635410, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635478, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635478, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635380, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635380, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635481, C19, ON
+2023/01/09 02:17:41 Found test 2233635481, C19, ON
+2023/01/09 02:17:41 Found test 2233635448, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635448, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635374, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635374, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635424, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635424, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635427, C19, Detected
+2023/01/09 02:17:41 Found test 2233635427, C19, Detected
+2023/01/09 02:17:41 Found test 2233635379, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635379, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635408, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635408, C19, Not detected
+2023/01/09 02:17:41 Found test 2233670016, C19, Detected
+2023/01/09 02:17:41 Found test 2233670016, C19, Detected
+2023/01/09 02:17:41 Found test 2233635409, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635409, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635388, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635388, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635423, C19, Detected
+2023/01/09 02:17:41 Found test 2233635423, C19, Detected
+2023/01/09 02:17:41 Found test 2233635383, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635383, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635397, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635397, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635453, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635453, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635430, C19, Detected
+2023/01/09 02:17:41 Found test 2233635430, C19, Detected
+2023/01/09 02:17:41 Found test 2233635435, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635435, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635395, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635395, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635399, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635399, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635277, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635277, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635268, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635268, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635286, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635286, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635405, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635405, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635276, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635276, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635411, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635411, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635278, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635278, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635456, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635456, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635391, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635391, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635457, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635457, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635462, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635462, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635412, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635412, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635443, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635443, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635422, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635422, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635437, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635437, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635358, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635358, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635452, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635452, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635464, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635464, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635434, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635434, C19, Not detected
+2023/01/09 02:17:41 Found test 2233670019, C19, Not detected
+2023/01/09 02:17:41 Found test 2233670019, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635447, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635447, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635451, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635451, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635425, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635425, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635436, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635436, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635283, C19, Detected
+2023/01/09 02:17:41 Found test 2233635283, C19, Detected
+2023/01/09 02:17:41 Found test 2233635285, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635285, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635284, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635284, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635349, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635349, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635282, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635282, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635441, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635441, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635483, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635483, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635440, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635440, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635279, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635279, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635400, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635400, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635415, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635415, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635458, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635458, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635474, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635474, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635475, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635475, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635378, C19, Not detected
+2023/01/09 02:17:41 Found test 2233635378, C19, Not detected
+2023/01/09 02:17:41 Found test 2300735102, C19R, Not detected
+2023/01/09 02:17:41 Found test 2300735102, C19R, Not detected
+2023/01/09 02:17:41 Found test 2300735100, C19R, Not detected
+2023/01/09 02:17:41 Found test 2300735100, C19R, Not detected
+2023/01/09 02:17:41 Found test 2300735151, C19R, Detected
+2023/01/09 02:17:41 Found test 2300735151, C19R, Detected
+2023/01/09 02:18:48 RegNoteLoader end

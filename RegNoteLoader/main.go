@@ -2,12 +2,16 @@ package main
 
 import (
 	"database/sql"
+	"fmt"
 	"github.com/alhaos/RegNoteLoader/cfxFiles"
 	_ "github.com/denisenkom/go-mssqldb"
 	_ "github.com/mattn/go-sqlite3"
 	"gopkg.in/yaml.v3"
+	"io"
 	"log"
 	"os"
+	"path/filepath"
+	"time"
 )
 
 var conf Config
@@ -20,9 +24,24 @@ type Config struct {
 }
 
 func init() {
+
+	// Log init
+	logFileName := fmt.Sprintf(`%v.log`, time.Now().Format("2006-01-02"))
+	LogPath := filepath.Join("Log", logFileName)
+
+	logFile, err := os.OpenFile(LogPath, os.O_CREATE|os.O_APPEND|os.O_RDWR, 0666)
+	if err != nil {
+		log.Fatalln("FATAL: Unable create log file")
+	}
+
+	mw := io.MultiWriter(logFile, os.Stdout)
+	log.SetOutput(mw)
+	log.Println("loader start")
+
+	// init config
 	conf = NewConfig()
 
-	var err error
+	// init LiteDB database
 	LiteDB, err = sql.Open("sqlite3", conf.DatabaseFileName)
 	if err != nil {
 		log.Fatal(err)

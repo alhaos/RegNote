@@ -186,22 +186,23 @@ func GetIncomingDemographicInformation(waitingAccessions []string) ([]Demographi
             select
             l.Accession                                     [Accession]
             , l.[Final Report Date]                         [Final Report Date]
-            , RTRIM(l.[Patient First Name])                 [First Name]
-            , RTRIM(l.[Patient Last Name])                  [Last Name]
-            , l.MI                                          [Middle Name]
-            , l.DOB                                         [DOB]
+            , RTRIM(pd.[First Name])                        [First Name]
+            , RTRIM(pd.[Last Name])                         [Last Name]
+            , RTRIM(pd.[Middle Initial])                    [Middle Name]
+            , pd.DOB                                        [DOB]
             , l.[Client ID]                                 [Client ID]
             , l.[Client Name]                               [Client Name]
             , l.[Phys  Name]                                [Phys Name]
             , l.[Test Code]                                 [Test Code]
-            , l.[Test Name]                                 [Test Name]
+            , 'SARS CoV-2, SWAB (PCR)'                      [Test Name]
             , RTRIM(LTRIM(l.Result))                        [Test Result]
-            , l.[Patient Address]                           [Patient Address]
-            , l.[Patient City]                              [Patient City]
-            , l.[Patient State]                             [Patient State]
-            , l.[Patient Zip]                               [Patient Zip]
-            , l.[Patient Phone]                             [Patient Phone]
+            , pd.Address                                    [Patient Address]
+            , pd.City                                       [Patient City]
+            , pd.[State]                                    [Patient State]
+            , pd.Zip                                        [Patient Zip]
+            , pd.Phone                                      [Patient Phone]
         from logtest_history l
+        join PL_Patient_Demographics pd on l.Accession = pd.Accession
        where [Test Code] in ('950Z', '960Z')
          and l.Result != 'ON'
          and l.Accession in
@@ -246,6 +247,7 @@ func GetIncomingDemographicInformation(waitingAccessions []string) ([]Demographi
 			&di.PatientPhone,
 		)
 
+		di.FinalReportDate = time.Now().Format(`01/02/2006`)
 		di.TestResult = interpretTestResult(di.TestResult)
 		IncomingDemographicInformation = append(IncomingDemographicInformation, di)
 	}

@@ -1,18 +1,17 @@
 package main
 
 import (
-	"bytes"
 	"database/sql"
 	"fmt"
 	"github.com/alhaos/RegNote/RegNoteMailer/mailer"
 	_ "github.com/denisenkom/go-mssqldb"
 	_ "github.com/mattn/go-sqlite3"
 	"gopkg.in/yaml.v2"
-	"html/template"
 	"io"
 	"log"
 	"os"
 	"path/filepath"
+	"regexp"
 	"strings"
 	"time"
 )
@@ -43,11 +42,26 @@ type DemographicInformation struct {
 	PatientPhone    string
 }
 
+type Result struct {
+	Filename   string
+	Accession  string
+	TestResult string
+	DT         string
+}
+
+type ClientAddresses struct {
+	to  []string
+	cc  []string
+	bcc []string
+}
+
 type ClientEMail struct {
 	TypeID   string
 	Address  string
 	ClientID string
 }
+
+var ClientsMap map[string][]DemographicInformation
 
 var ClientEMails []ClientEMail
 
@@ -117,185 +131,313 @@ func init() {
 		}
 		ClientEMails = append(ClientEMails, ce)
 	}
+	rows.Close()
 
 	// init mailer
 	Mailer = mailer.New()
+
+	// init ClientsMap
+	ClientsMap = map[string][]DemographicInformation{}
 }
 
-// main
 func main() {
-
-	WaitingAccessions, err := GetWaitingAccessions()
+	err := ProcessWaitingC19Results()
 	if err != nil {
-		log.Fatalln("Fatal: GetWaitingAccessions, ", err)
+		log.Fatalln("FATAL: ProcessWaitingC19Results")
 	}
 
-	if len(WaitingAccessions) == 0 {
-		log.Println("No waiting accessions found")
-		log.Fatal("Mailer end")
-	}
-
-	di, err := GetIncomingDemographicInformation(WaitingAccessions)
+	err = ProcessWaitingC19RResults()
 	if err != nil {
-		log.Fatalln("FATAL: GetIncomingDemographicInformation ", err)
+		log.Fatalln("FATAL: ProcessWaitingC19RResults")
 	}
 
-	for _, information := range di {
-		err = SendMail(information)
+	if len(ClientsMap) == 0 {
+		log.Println("Nothing to report")
+		log.Fatalln("Mailer end")
+	}
+
+	log.Println("Now reporting")
+	for id, dInfos := range ClientsMap {
+		err = ReportClient(id, dInfos)
 		if err != nil {
-			log.Fatalln("FATAL: Unable send EMail ", err)
+			log.Fatalln("FATAL ReportClient:", id)
 		}
-		CommitAccession(information.Accession)
 	}
 
 	log.Println("Mailer end")
 }
 
-// GetWaitingAccessions query unfinished accessions from SQLiteDB database
-func GetWaitingAccessions() ([]string, error) {
-	var WaitingAccessions []string
+// CommitAccession set is_processed = 1 in RESULT table on records with passed accession
+func CommitAccession(acc string) {
+	_, err := SQLiteDB.Exec("update RESULTS set IS_PROCESSED = '1' where ACCESSION = ?", acc)
+	if err != nil {
+		log.Fatalf("FATAL: Unable commit accession %v, %v", acc, err)
+	}
+	log.Printf("Accession %v commited", acc)
+}
 
-	rows, err := SQLiteDB.Query(`select ACCESSION from RESULTS where IS_PROCESSED = 0`)
+func NewConfig() Config {
+
+	c := Config{}
+
+	bytes, err := os.ReadFile("config.yml")
+
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	err = yaml.Unmarshal(bytes, &c)
+	if err != nil {
+		log.Fatal(err)
+	}
+	return c
+}
+
+// ProcessWaitingC19Results
+func ProcessWaitingC19Results() error {
+
+	rows, err := SQLiteDB.Query(`select FILENAME, ACCESSION, TESTRESULT, DT from RESULTS where IS_PROCESSED = 0 and TESTNAME = 'C19'`)
 	if err != nil {
 		log.Fatalln("Unable to prepare stmt", err)
 	}
 	defer rows.Close()
 
+	bill := 0
 	for rows.Next() {
-		var acc string
-		err = rows.Scan(&acc)
+		bill++
+		var r Result
+		err = rows.Scan(&r.Filename, &r.Accession, &r.TestResult, &r.DT)
 		if err != nil {
 			log.Fatal("FATAL: Unable scan rows from SQLite", err)
 		}
-		WaitingAccessions = append(WaitingAccessions, acc)
-	}
 
-	log.Printf("Found %v WaitingAccessions", len(WaitingAccessions))
-
-	return WaitingAccessions, nil
-}
-
-// GetIncomingDemographicInformation query incoming demographic information from MSSQL server
-func GetIncomingDemographicInformation(waitingAccessions []string) ([]DemographicInformation, error) {
-
-	var IncomingDemographicInformation []DemographicInformation
-
-	sb := strings.Builder{}
-
-	sb.WriteString(`
-            select
-            l.Accession                                     [Accession]
-            , l.[Final Report Date]                         [Final Report Date]
-            , RTRIM(pd.[First Name])                        [First Name]
-            , RTRIM(pd.[Last Name])                         [Last Name]
-            , RTRIM(pd.[Middle Initial])                    [Middle Name]
-            , pd.DOB                                        [DOB]
-            , l.[Client ID]                                 [Client ID]
-            , l.[Client Name]                               [Client Name]
-            , l.[Phys  Name]                                [Phys Name]
-            , l.[Test Code]                                 [Test Code]
-            , 'SARS CoV-2, SWAB (PCR)'                      [Test Name]
-            , RTRIM(LTRIM(l.Result))                        [Test Result]
-            , pd.Address                                    [Patient Address]
-            , pd.City                                       [Patient City]
-            , pd.[State]                                    [Patient State]
-            , pd.Zip                                        [Patient Zip]
-            , pd.Phone                                      [Patient Phone]
-        from logtest_history l
-        join PL_Patient_Demographics pd on l.Accession = pd.Accession
-       where [Test Code] in ('950Z', '960Z')
-         and l.Result != 'ON'
-         and l.Accession in
-(`)
-
-	for i, accession := range waitingAccessions {
-		if i == 0 {
-			sb.WriteString("'" + accession + "'")
-		} else {
-			sb.WriteString(",'" + accession + "'")
+		log.Printf("Found waiting C19 result with accession: %v and result: %v", r.Accession, r.TestResult)
+		di := FoundC19DemographicInformation(r)
+		if di != nil {
+			ClientsMap[di.ClientID] = append(ClientsMap[di.ClientID], *di)
 		}
 	}
-
-	sb.WriteString(");")
-
-	query := sb.String()
-
-	rows, err := MSSQL.Query(query)
-	if err != nil {
-		log.Fatalln("FATAL: unable query demographic information: ", err)
+	if bill == 0 {
+		log.Println("No C19 waiting accessions found")
 	}
-
-	for rows.Next() {
-		var di DemographicInformation
-		err = rows.Scan(
-			&di.Accession,
-			&di.FinalReportDate,
-			&di.FirstName,
-			&di.LastName,
-			&di.MiddleName,
-			&di.DOB,
-			&di.ClientID,
-			&di.ClientName,
-			&di.PhysName,
-			&di.TestCode,
-			&di.TestName,
-			&di.TestResult,
-			&di.PatientAddress,
-			&di.PatientCity,
-			&di.PatientState,
-			&di.PatientZip,
-			&di.PatientPhone,
-		)
-
-		di.FinalReportDate = time.Now().Format(`01/02/2006`)
-		di.TestResult = interpretTestResult(di.TestResult)
-		IncomingDemographicInformation = append(IncomingDemographicInformation, di)
-	}
-
-	log.Printf("Found %v incoming demographic information", len(IncomingDemographicInformation))
-
-	return IncomingDemographicInformation, nil
-}
-
-// SendMail
-func SendMail(di DemographicInformation) error {
-
-	var (
-		to  []string
-		cc  []string
-		bcc []string
-	)
-
-	for i := range ClientEMails {
-		if ClientEMails[i].ClientID == di.ClientID {
-			switch ClientEMails[i].TypeID {
-			case "to":
-				to = append(to, ClientEMails[i].Address)
-			case "cc":
-				cc = append(cc, ClientEMails[i].Address)
-			case "bcc":
-				bcc = append(bcc, ClientEMails[i].Address)
-			}
-		}
-	}
-
-	if len(to)+len(cc)+len(bcc) == 0 {
-		log.Printf("No EMail config found for client: %v, %v", di.ClientID, di.ClientName)
-		return nil
-	}
-
-	subj := "Client " + di.ClientID + " COVID-19 Result [secure]"
-
-	Mailer.SendMail(MakeBody(di), subj, to, cc, bcc)
-
 	return nil
 }
 
-// MakeBody create string mail body from instance of DemographicInformation structure
-func MakeBody(information DemographicInformation) string {
+func FoundC19DemographicInformation(result Result) *DemographicInformation {
 
-	t, err := template.New("MailBody").Parse(`
-<!doctype html>
+	var di DemographicInformation
+	query := `
+            select
+              ISNULL(l.Accession, '')                                   [Accession]
+            , ISNULL(l.[Final Report Date], '')                         [Final Report Date]
+            , ISNULL(RTRIM(pd.[First Name]), '')                        [First Name]
+            , ISNULL(RTRIM(pd.[Last Name]), '')                         [Last Name]
+            , ISNULL(RTRIM(pd.[Middle Initial]), '')                    [Middle Name]
+            , ISNULL(pd.DOB, '')                                        [DOB]
+            , ISNULL(l.[Client ID], '')                                 [Client ID]
+            , ISNULL(l.[Client Name], '')                               [Client Name]
+            , ISNULL(l.[Phys  Name], '')                                [Phys Name]
+            , ISNULL(l.[Test Code], '')                                 [Test Code]
+            , ISNULL('SARS CoV-2, SWAB (PCR)', '')                      [Test Name]
+            , ISNULL(RTRIM(LTRIM(l.Result)), '')                        [Test Result]
+            , ISNULL(pd.Address, '')                                    [Patient Address]
+            , ISNULL(pd.City, '')                                       [Patient City]
+            , ISNULL(pd.[State], '')                                    [Patient State]
+            , ISNULL(pd.Zip, '')                                        [Patient Zip]
+            , ISNULL(pd.Phone, '')                                      [Patient Phone]
+        from logtest_history l
+        join PL_Patient_Demographics pd on l.Accession = pd.Accession
+       where [Test Code] in ('950Z')
+         and l.Result != 'ON'
+         and l.Accession = ?`
+	row := MSSQL.QueryRow(query, result.Accession)
+
+	err := row.Scan(
+		&di.Accession,
+		&di.FinalReportDate,
+		&di.FirstName,
+		&di.LastName,
+		&di.MiddleName,
+		&di.DOB,
+		&di.ClientID,
+		&di.ClientName,
+		&di.PhysName,
+		&di.TestCode,
+		&di.TestName,
+		&di.TestResult,
+		&di.PatientAddress,
+		&di.PatientCity,
+		&di.PatientState,
+		&di.PatientZip,
+		&di.PatientPhone,
+	)
+	switch err {
+	case nil:
+		break
+	case sql.ErrNoRows:
+		log.Printf("No C19 result with accession %v found in Finance database", result.Accession)
+		return nil
+	default:
+		log.Fatalf("FATAL: Unable scan c19 demographic information, %v", err)
+	}
+	di.DOB = parseDob(di.DOB)
+	di.PatientPhone = phoneFix(di.PatientPhone)
+	di.TestResult = result.TestResult
+	di.FinalReportDate = time.Now().Format(`01/02/2006`)
+
+	log.Printf("Found C19 result with acession %v in Finance database", result.Accession)
+	return &di
+}
+
+func ProcessWaitingC19RResults() error {
+
+	rows, err := SQLiteDB.Query(`select FILENAME, ACCESSION, TESTRESULT, DT from RESULTS where IS_PROCESSED = 0 and TESTNAME = 'C19R'`)
+	if err != nil {
+		log.Fatalln("Unable to prepare stmt", err)
+	}
+	defer rows.Close()
+
+	bill := 0
+	for rows.Next() {
+		bill++
+		var r Result
+		err = rows.Scan(&r.Filename, &r.Accession, &r.TestResult, &r.DT)
+		if err != nil {
+			log.Fatal("FATAL: Unable scan rows from SQLite", err)
+		}
+
+		log.Printf("Found waiting C19 result with accession: %v and result: %v", r.Accession, r.TestResult)
+		di := FoundC19RDemographicInformation(r)
+		if di != nil {
+			ClientsMap[di.ClientID] = append(ClientsMap[di.ClientID], *di)
+		}
+	}
+	if bill == 0 {
+		log.Println("No C19 waiting accessions found")
+	}
+	return nil
+}
+
+func FoundC19RDemographicInformation(result Result) *DemographicInformation {
+
+	var di DemographicInformation
+	query := `
+            select
+              ISNULL(l.Accession, '')                                   [Accession]
+            , ISNULL(l.[Final Report Date], '')                         [Final Report Date]
+            , ISNULL(RTRIM(pd.[First Name]), '')                        [First Name]
+            , ISNULL(RTRIM(pd.[Last Name]), '')                         [Last Name]
+            , ISNULL(RTRIM(pd.[Middle Initial]), '')                    [Middle Name]
+            , ISNULL(pd.DOB, '')                                        [DOB]
+            , ISNULL(l.[Client ID], '')                                 [Client ID]
+            , ISNULL(l.[Client Name], '')                               [Client Name]
+            , ISNULL(l.[Phys  Name], '')                                [Phys Name]
+            , ISNULL(l.[Test Code], '')                                 [Test Code]
+            , ISNULL('SARS CoV-2, SWAB (PCR)', '')                      [Test Name]
+            , ISNULL(RTRIM(LTRIM(l.Result)), '')                        [Test Result]
+            , ISNULL(pd.Address, '')                                    [Patient Address]
+            , ISNULL(pd.City, '')                                       [Patient City]
+            , ISNULL(pd.[State], '')                                    [Patient State]
+            , ISNULL(pd.Zip, '')                                        [Patient Zip]
+            , ISNULL(pd.Phone, '')                                      [Patient Phone]
+        from logtest_history l
+        join PL_Patient_Demographics pd on l.Accession = pd.Accession
+       where [Test Code] in ('960Z')
+         and l.Result != 'ON'
+         and l.Accession = ?`
+
+	stmt, err := MSSQL.Prepare(query)
+	if err != nil {
+		log.Fatalln("Fatal: unable prepare query,", err)
+	}
+	row := stmt.QueryRow(result.Accession)
+
+	err = row.Scan(
+		&di.Accession,
+		&di.FinalReportDate,
+		&di.FirstName,
+		&di.LastName,
+		&di.MiddleName,
+		&di.DOB,
+		&di.ClientID,
+		&di.ClientName,
+		&di.PhysName,
+		&di.TestCode,
+		&di.TestName,
+		&di.TestResult,
+		&di.PatientAddress,
+		&di.PatientCity,
+		&di.PatientState,
+		&di.PatientZip,
+		&di.PatientPhone,
+	)
+	switch err {
+	case nil:
+		break
+	case sql.ErrNoRows:
+		log.Printf("No C19R result with accession %v found in Finance database", result.Accession)
+		return nil
+	default:
+		log.Fatalf("FATAL: Unable scan C19R demographic information, %v", err)
+	}
+	di.DOB = parseDob(di.DOB)
+	di.PatientPhone = phoneFix(di.PatientPhone)
+	di.TestResult = result.TestResult
+	di.FinalReportDate = time.Now().Format(`01/02/2006`)
+
+	log.Printf("Found C19R result with acession %v in Finance database", result.Accession)
+	return &di
+}
+
+func ReportClient(clientID string, dInfos []DemographicInformation) error {
+
+	ca, ok := GetClientAddresses(clientID)
+
+	if ok {
+		log.Println("Found EMail configuration for client:", clientID)
+	} else {
+		log.Println("No EMail configuration found for client:", clientID)
+		for _, info := range dInfos {
+			CommitAccession(info.Accession)
+		}
+		return nil
+	}
+
+	sb := strings.Builder{}
+
+	sb.WriteString("To:")
+	for i, to_ := range ca.to {
+		if i == 0 {
+			sb.WriteString(to_)
+		} else {
+			sb.WriteString(";" + to_)
+		}
+	}
+	sb.WriteString("\n")
+
+	sb.WriteString("Cc:")
+	for i, cc_ := range ca.cc {
+		if i == 0 {
+			sb.WriteString(cc_)
+		} else {
+			sb.WriteString(";" + cc_)
+		}
+	}
+	sb.WriteString("\n")
+
+	sb.WriteString("Bcc:")
+	for i, bcc_ := range ca.bcc {
+		if i == 0 {
+			sb.WriteString(bcc_)
+		} else {
+			sb.WriteString(";" + bcc_)
+		}
+	}
+
+	sb.WriteString("\n")
+	sb.WriteString("Subject: Client " + clientID + " COVID-19 Result [secure]\n")
+	sb.WriteString("MIME-version: 1.0;\nContent-Type: text/html; charset=\"UTF-8\";\n\n")
+	sb.WriteString(`<!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Client report</title>
@@ -346,81 +488,83 @@ func MakeBody(information DemographicInformation) string {
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>{{ .Accession }}</td>
-                <td>{{ .FinalReportDate }}</td>
-                <td>{{ .FirstName }}</td>
-                <td>{{ .LastName }}</td>
-                <td>{{ .MiddleName }}</td>
-                <td>{{ .DOB }}</td>
-                <td>{{ .ClientID }}</td>
-                <td>{{ .ClientName }}</td>
-                <td>{{ .PhysName }}</td>
-                <td>{{ .TestCode }}</td>
-                <td>{{ .TestName }}</td>
-                <td>{{ .TestResult }}</td>
-                <td>{{ .PatientAddress }}</td>
-                <td>{{ .PatientCity }}</td>
-                <td>{{ .PatientState }}</td>
-                <td>{{ .PatientZip }}</td>
-                <td>{{ .PatientPhone }}</td>
-            </tr>
-        </tbody>
+`)
+	for _, info := range dInfos {
+		sb.WriteString(`            <tr>
+                <td>` + info.Accession + `</td>
+                <td>` + info.FinalReportDate + `</td>
+                <td>` + info.FirstName + `</td>
+                <td>` + info.LastName + `</td>
+                <td>` + info.MiddleName + `</td>
+                <td>` + info.DOB + `</td>
+                <td>` + info.ClientID + `</td>
+                <td>` + info.ClientName + `</td>
+                <td>` + info.PhysName + `</td>
+                <td>` + info.TestCode + `</td>
+                <td>` + info.TestName + `</td>
+                <td>` + info.TestResult + `</td>
+                <td>` + info.PatientAddress + `</td>
+                <td>` + info.PatientCity + `</td>
+                <td>` + info.PatientState + `</td>
+                <td>` + info.PatientZip + `</td>
+                <td>` + info.PatientPhone + `</td>
+            </tr>`)
+	}
+	sb.WriteString(`        </tbody>
     </table>
 </body>
 </html>
 `)
-	if err != nil {
-		log.Fatalln("FATAL: unable parse template: ", err)
+
+	Mailer.SendMail(sb.String(), ca.to, ca.cc, ca.bcc)
+
+	for _, info := range dInfos {
+		CommitAccession(info.Accession)
 	}
 
-	var tpl bytes.Buffer
-	err = t.Execute(&tpl, information)
-	if err != nil {
-		log.Fatalln("FATAL: Unable execute template, ", err)
-	}
-
-	return tpl.String()
+	log.Println("Send EMail to", clientID)
+	return nil
 }
 
-// CommitAccession set is_processed = 1 in RESULT table on records with passed accession
-func CommitAccession(acc string) {
-	_, err := SQLiteDB.Exec("update RESULTS set IS_PROCESSED = '1' where ACCESSION = ?", acc)
-	if err != nil {
-		log.Fatalf("FATAL: Unable commit accession %v, %v", acc, err)
+func GetClientAddresses(clientID string) (ClientAddresses, bool) {
+
+	var ca ClientAddresses
+
+	for i := range ClientEMails {
+		if ClientEMails[i].ClientID == clientID {
+			switch ClientEMails[i].TypeID {
+			case "to":
+				ca.to = append(ca.to, ClientEMails[i].Address)
+			case "cc":
+				ca.cc = append(ca.cc, ClientEMails[i].Address)
+			case "bcc":
+				ca.bcc = append(ca.bcc, ClientEMails[i].Address)
+			}
+		}
 	}
-	log.Printf("Accession %v commited", acc)
+
+	if len(ca.to)+len(ca.cc)+len(ca.bcc) == 0 {
+		return ClientAddresses{}, false
+	}
+
+	return ca, true
 }
 
-// interpretTestResult
-func interpretTestResult(r string) string {
-	switch r {
-	case "D":
-		return "Detected"
-	case "ND":
-		return "Not detected"
-	case "INV":
-		return "Invalid"
-	case "IN":
-		return "Presumptive positive"
-	default:
-		return r
+func parseDob(t string) string {
+	ti, err := time.Parse("2006-01-02T15:04:05Z", t)
+	if err != nil {
+		return "n/a"
 	}
+	return ti.Format("2006-01-02")
 }
 
-func NewConfig() Config {
-
-	c := Config{}
-
-	bytes, err := os.ReadFile("config.yml")
-
-	if err != nil {
-		log.Fatal(err)
+func phoneFix(ph string) string {
+	re := regexp.MustCompile(`\D`)
+	s := re.ReplaceAllString(ph, ``)
+	if len(s) == 0 {
+		return ""
 	}
-
-	err = yaml.Unmarshal(bytes, &c)
-	if err != nil {
-		log.Fatal(err)
-	}
-	return c
+	re = regexp.MustCompile(`(\d{3})(\d{3})(\d{4})`)
+	s = re.ReplaceAllString(s, `($1)$2-$3`)
+	return s
 }

@@ -2139,3 +2139,719 @@
 2023/01/09 02:29:58 No EMail config found for client: 14388, PASSAIC PEDIATRICS II    
 2023/01/09 02:29:58 Accession 2300735151 commited
 2023/01/09 02:29:58 Mailer end
+2023/01/09 14:54:47 Mailer start
+2023/01/09 15:00:28 Mailer start
+2023/01/09 15:00:30 No C19 waiting accessions found
+2023/01/09 15:00:30 Mailer end
+2023/01/09 15:01:15 Mailer start
+2023/01/09 15:01:16 No C19 waiting accessions found
+2023/01/09 15:01:16 Mailer end
+2023/01/09 15:01:47 Mailer start
+2023/01/09 15:01:48 Found waiting C19 result with accession: 2233635415 and result: Not detected
+2023/01/09 15:01:48 FATAL: Unable scan c19 demographic information
+2023/01/09 15:02:45 Mailer start
+2023/01/09 15:02:46 Found waiting C19 result with accession: 2233635415 and result: Not detected
+2023/01/09 15:02:46 FATAL: Unable scan c19 demographic information, sql: expected 0 arguments, got 1
+2023/01/09 15:03:24 Mailer start
+2023/01/09 15:03:26 Found waiting C19 result with accession: 2233635415 and result: Not detected
+2023/01/09 15:03:29 Found result with acession 2233635415 in Finance database
+2023/01/09 15:04:55 Mailer start
+2023/01/09 15:04:56 Found waiting C19 result with accession: 2233635415 and result: Not detected
+2023/01/09 15:04:59 Found result with acession 2233635415 in Finance database
+2023/01/09 15:04:59 Found waiting C19 result with accession: 2233635458 and result: Not detected
+2023/01/09 15:05:05 Found result with acession 2233635458 in Finance database
+2023/01/09 15:05:05 Found waiting C19 result with accession: 2233635458 and result: Not detected
+2023/01/09 15:05:09 Found result with acession 2233635458 in Finance database
+2023/01/09 15:05:09 Found waiting C19 result with accession: 2233635474 and result: Not detected
+2023/01/09 15:05:12 Found result with acession 2233635474 in Finance database
+2023/01/09 15:05:12 Found waiting C19 result with accession: 2233635474 and result: Not detected
+2023/01/09 15:05:16 Found result with acession 2233635474 in Finance database
+2023/01/09 15:05:16 Found waiting C19 result with accession: 2233635475 and result: Not detected
+2023/01/09 15:05:19 Found result with acession 2233635475 in Finance database
+2023/01/09 15:05:19 Found waiting C19 result with accession: 2233635475 and result: Not detected
+2023/01/09 15:05:22 Found result with acession 2233635475 in Finance database
+2023/01/09 15:05:22 Found waiting C19 result with accession: 2233635378 and result: Not detected
+2023/01/09 15:05:26 Found result with acession 2233635378 in Finance database
+2023/01/09 15:05:26 Found waiting C19 result with accession: 2233635378 and result: Not detected
+2023/01/09 15:05:29 Found result with acession 2233635378 in Finance database
+2023/01/09 15:05:29 Mailer end
+2023/01/09 15:07:36 Mailer start
+2023/01/09 15:07:37 Found waiting C19 result with accession: 2233635415 and result: Not detected
+2023/01/09 15:07:41 Found result with acession 2233635415 in Finance database
+2023/01/09 15:07:41 Found waiting C19 result with accession: 2233635458 and result: Not detected
+2023/01/09 15:07:44 Found result with acession 2233635458 in Finance database
+2023/01/09 15:07:44 Found waiting C19 result with accession: 2233635458 and result: Not detected
+2023/01/09 15:07:47 Found result with acession 2233635458 in Finance database
+2023/01/09 15:07:47 Found waiting C19 result with accession: 2233635474 and result: Not detected
+2023/01/09 15:07:51 Found result with acession 2233635474 in Finance database
+2023/01/09 15:07:51 Found waiting C19 result with accession: 2233635474 and result: Not detected
+2023/01/09 15:07:54 Found result with acession 2233635474 in Finance database
+2023/01/09 15:07:54 Found waiting C19 result with accession: 2233635475 and result: Not detected
+2023/01/09 15:07:58 Found result with acession 2233635475 in Finance database
+2023/01/09 15:07:58 Found waiting C19 result with accession: 2233635475 and result: Not detected
+2023/01/09 15:08:01 Found result with acession 2233635475 in Finance database
+2023/01/09 15:08:01 Found waiting C19 result with accession: 2233635378 and result: Not detected
+2023/01/09 15:08:04 Found result with acession 2233635378 in Finance database
+2023/01/09 15:08:04 Found waiting C19 result with accession: 2233635378 and result: Not detected
+2023/01/09 15:08:07 Found result with acession 2233635378 in Finance database
+2023/01/09 15:08:07 Mailer end
+2023/01/09 15:31:37 Mailer start
+2023/01/09 15:31:38 Found waiting C19 result with accession: 2300735185 and result: Not detected
+2023/01/09 15:31:42 Found result with acession 2300735185 in Finance database
+2023/01/09 15:31:42 Found waiting C19 result with accession: 2300735179 and result: Not detected
+2023/01/09 15:31:44 Found result with acession 2300735179 in Finance database
+2023/01/09 15:31:44 Found waiting C19 result with accession: 2300735167 and result: Detected
+2023/01/09 15:31:47 Found result with acession 2300735167 in Finance database
+2023/01/09 15:31:47 Found waiting C19 result with accession: 2300695160 and result: Not detected
+2023/01/09 15:31:50 Found result with acession 2300695160 in Finance database
+2023/01/09 15:31:50 Found waiting C19 result with accession: 2300735227 and result: Not detected
+2023/01/09 15:31:52 FATAL: Unable scan c19 demographic information, sql: Scan error on column index 8, name "Phys Name": converting NULL to string is unsupported
+2023/01/09 15:32:12 Mailer start
+2023/01/09 15:32:13 Found waiting C19 result with accession: 2300735185 and result: Not detected
+2023/01/09 15:32:15 Found result with acession 2300735185 in Finance database
+2023/01/09 15:32:15 Found waiting C19 result with accession: 2300735179 and result: Not detected
+2023/01/09 15:32:17 Found result with acession 2300735179 in Finance database
+2023/01/09 15:32:17 Found waiting C19 result with accession: 2300735167 and result: Detected
+2023/01/09 15:32:19 Found result with acession 2300735167 in Finance database
+2023/01/09 15:32:19 Found waiting C19 result with accession: 2300695160 and result: Not detected
+2023/01/09 15:32:21 Found result with acession 2300695160 in Finance database
+2023/01/09 15:32:21 Found waiting C19 result with accession: 2300735227 and result: Not detected
+2023/01/09 15:32:23 FATAL: Unable scan c19 demographic information, sql: Scan error on column index 8, name "Phys Name": converting NULL to string is unsupported
+2023/01/09 15:35:50 Mailer start
+2023/01/09 15:35:51 Found waiting C19 result with accession: 2300735185 and result: Not detected
+2023/01/09 15:35:54 Found result with acession 2300735185 in Finance database
+2023/01/09 15:35:54 Found waiting C19 result with accession: 2300735179 and result: Not detected
+2023/01/09 15:35:57 Found result with acession 2300735179 in Finance database
+2023/01/09 15:35:57 Found waiting C19 result with accession: 2300735167 and result: Detected
+2023/01/09 15:35:59 Found result with acession 2300735167 in Finance database
+2023/01/09 15:35:59 Found waiting C19 result with accession: 2300695160 and result: Not detected
+2023/01/09 15:36:02 Found result with acession 2300695160 in Finance database
+2023/01/09 15:36:02 Found waiting C19 result with accession: 2300735227 and result: Not detected
+2023/01/09 15:36:04 Found result with acession 2300735227 in Finance database
+2023/01/09 15:36:04 Found waiting C19 result with accession: 2300695161 and result: Not detected
+2023/01/09 15:36:07 Found result with acession 2300695161 in Finance database
+2023/01/09 15:36:07 Found waiting C19 result with accession: 9300695323 and result: Not detected
+2023/01/09 15:36:08 No result with accession 9300695323 found in Finance database
+2023/01/09 15:36:08 Found waiting C19 result with accession: 2300701224 and result: Not detected
+2023/01/09 15:36:10 Found result with acession 2300701224 in Finance database
+2023/01/09 15:36:10 Mailer end
+2023/01/09 15:38:36 Mailer start
+2023/01/09 15:38:37 Found waiting C19 result with accession: 2300735185 and result: Not detected
+2023/01/09 15:38:39 Found result with acession 2300735185 in Finance database
+2023/01/09 15:38:39 Found waiting C19 result with accession: 2300735179 and result: Not detected
+2023/01/09 15:38:41 Found result with acession 2300735179 in Finance database
+2023/01/09 15:38:41 Found waiting C19 result with accession: 2300735167 and result: Detected
+2023/01/09 15:38:44 Found result with acession 2300735167 in Finance database
+2023/01/09 15:38:44 Found waiting C19 result with accession: 2300695160 and result: Not detected
+2023/01/09 15:38:47 Found result with acession 2300695160 in Finance database
+2023/01/09 15:38:47 Found waiting C19 result with accession: 2300735227 and result: Not detected
+2023/01/09 15:38:50 Found result with acession 2300735227 in Finance database
+2023/01/09 15:38:50 Found waiting C19 result with accession: 2300695161 and result: Not detected
+2023/01/09 15:38:52 Found result with acession 2300695161 in Finance database
+2023/01/09 15:38:52 Found waiting C19 result with accession: 9300695323 and result: Not detected
+2023/01/09 15:38:53 No result with accession 9300695323 found in Finance database
+2023/01/09 15:38:53 Found waiting C19 result with accession: 2300701224 and result: Not detected
+2023/01/09 15:38:55 Found result with acession 2300701224 in Finance database
+2023/01/09 15:38:55 Mailer end
+2023/01/09 15:46:17 Mailer start
+2023/01/09 15:46:18 Found waiting C19 result with accession: 2300735185 and result: Not detected
+2023/01/09 15:46:21 Found C19 result with acession 2300735185 in Finance database
+2023/01/09 15:46:21 Found waiting C19 result with accession: 2300735179 and result: Not detected
+2023/01/09 15:46:24 Found C19 result with acession 2300735179 in Finance database
+2023/01/09 15:46:24 Found waiting C19 result with accession: 2300735167 and result: Detected
+2023/01/09 15:46:26 Found C19 result with acession 2300735167 in Finance database
+2023/01/09 15:46:26 Found waiting C19 result with accession: 2300695160 and result: Not detected
+2023/01/09 15:46:29 Found C19 result with acession 2300695160 in Finance database
+2023/01/09 15:46:29 Found waiting C19 result with accession: 2300735227 and result: Not detected
+2023/01/09 15:46:31 Found C19 result with acession 2300735227 in Finance database
+2023/01/09 15:46:31 Found waiting C19 result with accession: 2300695161 and result: Not detected
+2023/01/09 15:46:33 Found C19 result with acession 2300695161 in Finance database
+2023/01/09 15:46:33 Found waiting C19 result with accession: 0230069532 and result: Not detected
+2023/01/09 15:46:34 No C19 result with accession 0230069532 found in Finance database
+2023/01/09 15:46:34 Found waiting C19 result with accession: 2300701224 and result: Not detected
+2023/01/09 15:46:36 Found C19 result with acession 2300701224 in Finance database
+2023/01/09 15:46:36 Mailer end
+2023/01/09 15:47:58 Mailer start
+2023/01/09 15:47:59 Found waiting C19 result with accession: 2300735185 and result: Not detected
+2023/01/09 15:48:01 Found C19 result with acession 2300735185 in Finance database
+2023/01/09 15:48:01 Found waiting C19 result with accession: 2300735179 and result: Not detected
+2023/01/09 15:48:03 Found C19 result with acession 2300735179 in Finance database
+2023/01/09 15:48:03 Found waiting C19 result with accession: 2300735167 and result: Detected
+2023/01/09 15:48:05 Found C19 result with acession 2300735167 in Finance database
+2023/01/09 15:48:05 Found waiting C19 result with accession: 2300695160 and result: Not detected
+2023/01/09 15:48:07 Found C19 result with acession 2300695160 in Finance database
+2023/01/09 15:48:07 Found waiting C19 result with accession: 2300735227 and result: Not detected
+2023/01/09 15:48:09 Found C19 result with acession 2300735227 in Finance database
+2023/01/09 15:48:09 Found waiting C19 result with accession: 2300695161 and result: Not detected
+2023/01/09 15:48:10 Found C19 result with acession 2300695161 in Finance database
+2023/01/09 15:48:10 Found waiting C19 result with accession: 0230069532 and result: Not detected
+2023/01/09 15:48:12 No C19 result with accession 0230069532 found in Finance database
+2023/01/09 15:48:12 Found waiting C19 result with accession: 2300701224 and result: Not detected
+2023/01/09 15:48:14 Found C19 result with acession 2300701224 in Finance database
+2023/01/09 15:48:14 Found waiting C19 result with accession: 2233570035 and result: Not detected
+2023/01/09 15:48:15 No C19 result with accession 2233570035 found in Finance database
+2023/01/09 15:48:15 Found waiting C19 result with accession: 2233535698 and result: Not detected
+2023/01/09 15:48:17 No C19 result with accession 2233535698 found in Finance database
+2023/01/09 15:48:17 Found waiting C19 result with accession: 2233535638 and result: Not detected
+2023/01/09 15:48:18 No C19 result with accession 2233535638 found in Finance database
+2023/01/09 15:48:18 Found waiting C19 result with accession: 0233735041 and result: Not detected
+2023/01/09 15:48:20 No C19 result with accession 0233735041 found in Finance database
+2023/01/09 15:48:20 Found waiting C19 result with accession: 2233635238 and result: Not detected
+2023/01/09 15:48:21 No C19 result with accession 2233635238 found in Finance database
+2023/01/09 15:48:21 Mailer end
+2023/01/09 15:50:02 Mailer start
+2023/01/09 15:50:03 Found waiting C19 result with accession: 2300735185 and result: Not detected
+2023/01/09 15:50:05 Found C19 result with acession 2300735185 in Finance database
+2023/01/09 15:50:05 Found waiting C19 result with accession: 2300735179 and result: Not detected
+2023/01/09 15:50:07 Found C19 result with acession 2300735179 in Finance database
+2023/01/09 15:50:07 Found waiting C19 result with accession: 2300735167 and result: Detected
+2023/01/09 15:50:09 Found C19 result with acession 2300735167 in Finance database
+2023/01/09 15:50:09 Found waiting C19 result with accession: 2300695160 and result: Not detected
+2023/01/09 15:50:11 Found C19 result with acession 2300695160 in Finance database
+2023/01/09 15:50:11 Found waiting C19 result with accession: 2300735227 and result: Not detected
+2023/01/09 15:50:13 Found C19 result with acession 2300735227 in Finance database
+2023/01/09 15:50:13 Found waiting C19 result with accession: 2300695161 and result: Not detected
+2023/01/09 15:50:15 Found C19 result with acession 2300695161 in Finance database
+2023/01/09 15:50:15 Found waiting C19 result with accession: 0230069532 and result: Not detected
+2023/01/09 15:50:16 No C19 result with accession 0230069532 found in Finance database
+2023/01/09 15:50:16 Found waiting C19 result with accession: 2300701224 and result: Not detected
+2023/01/09 15:50:19 Found C19 result with acession 2300701224 in Finance database
+2023/01/09 15:50:19 Found waiting C19 result with accession: 2233570035 and result: Not detected
+2023/01/09 15:50:21 Found C19R result with acession 2233570035 in Finance database
+2023/01/09 15:50:21 Found waiting C19 result with accession: 2233535698 and result: Not detected
+2023/01/09 15:50:23 Found C19R result with acession 2233535698 in Finance database
+2023/01/09 15:50:23 Found waiting C19 result with accession: 2233535638 and result: Not detected
+2023/01/09 15:50:25 Found C19R result with acession 2233535638 in Finance database
+2023/01/09 15:50:25 Found waiting C19 result with accession: 0233735041 and result: Not detected
+2023/01/09 15:50:26 No C19R result with accession 0233735041 found in Finance database
+2023/01/09 15:50:26 Found waiting C19 result with accession: 2233635238 and result: Not detected
+2023/01/09 15:50:28 Found C19R result with acession 2233635238 in Finance database
+2023/01/09 15:50:28 Mailer end
+2023/01/09 17:31:13 Mailer start
+2023/01/09 17:31:15 Found waiting C19 result with accession: 2300735185 and result: Not detected
+2023/01/09 17:31:28 Found C19 result with acession 2300735185 in Finance database
+2023/01/09 17:31:28 Found waiting C19 result with accession: 2300735179 and result: Not detected
+2023/01/09 17:31:37 Found C19 result with acession 2300735179 in Finance database
+2023/01/09 17:31:37 Found waiting C19 result with accession: 2300735167 and result: Detected
+2023/01/09 17:31:47 Found C19 result with acession 2300735167 in Finance database
+2023/01/09 17:31:47 Found waiting C19 result with accession: 2300695160 and result: Not detected
+2023/01/09 17:31:54 Found C19 result with acession 2300695160 in Finance database
+2023/01/09 17:31:54 Found waiting C19 result with accession: 2300735227 and result: Not detected
+2023/01/09 17:31:59 Found C19 result with acession 2300735227 in Finance database
+2023/01/09 17:31:59 Found waiting C19 result with accession: 2300695161 and result: Not detected
+2023/01/09 17:32:04 Found C19 result with acession 2300695161 in Finance database
+2023/01/09 17:32:04 Found waiting C19 result with accession: 0230069532 and result: Not detected
+2023/01/09 17:32:06 No C19 result with accession 0230069532 found in Finance database
+2023/01/09 17:32:06 Found waiting C19 result with accession: 2300701224 and result: Not detected
+2023/01/09 17:32:11 Found C19 result with acession 2300701224 in Finance database
+2023/01/09 17:32:11 Found waiting C19 result with accession: 2233570035 and result: Not detected
+2023/01/09 17:32:16 Found C19R result with acession 2233570035 in Finance database
+2023/01/09 17:32:16 Found waiting C19 result with accession: 2233535698 and result: Not detected
+2023/01/09 17:32:19 Found C19R result with acession 2233535698 in Finance database
+2023/01/09 17:32:19 Found waiting C19 result with accession: 2233535638 and result: Not detected
+2023/01/09 17:32:23 Found C19R result with acession 2233535638 in Finance database
+2023/01/09 17:32:23 Found waiting C19 result with accession: 0233735041 and result: Not detected
+2023/01/09 17:32:25 No C19R result with accession 0233735041 found in Finance database
+2023/01/09 17:32:25 Found waiting C19 result with accession: 2233635238 and result: Not detected
+2023/01/09 17:32:28 Found C19R result with acession 2233635238 in Finance database
+2023/01/09 17:32:28 Now reporting
+2023/01/09 17:32:28 Found EMail configuration for client: 38591
+2023/01/09 17:32:28 Found EMail configuration for client: 37282
+2023/01/09 17:32:28 Found EMail configuration for client: 36869
+2023/01/09 17:32:28 Mailer end
+2023/01/09 17:43:54 Mailer start
+2023/01/09 17:43:55 Found waiting C19 result with accession: 2300735185 and result: Not detected
+2023/01/09 17:43:58 Found C19 result with acession 2300735185 in Finance database
+2023/01/09 17:43:58 Found waiting C19 result with accession: 2300735179 and result: Not detected
+2023/01/09 17:44:01 Found C19 result with acession 2300735179 in Finance database
+2023/01/09 17:44:01 Found waiting C19 result with accession: 2300735167 and result: Detected
+2023/01/09 17:44:05 Found C19 result with acession 2300735167 in Finance database
+2023/01/09 17:44:05 Found waiting C19 result with accession: 2300695160 and result: Not detected
+2023/01/09 17:44:08 Found C19 result with acession 2300695160 in Finance database
+2023/01/09 17:44:08 Found waiting C19 result with accession: 2300735227 and result: Not detected
+2023/01/09 17:44:12 Found C19 result with acession 2300735227 in Finance database
+2023/01/09 17:44:12 Found waiting C19 result with accession: 2300695161 and result: Not detected
+2023/01/09 17:44:15 Found C19 result with acession 2300695161 in Finance database
+2023/01/09 17:44:15 Found waiting C19 result with accession: 0230069532 and result: Not detected
+2023/01/09 17:44:16 No C19 result with accession 0230069532 found in Finance database
+2023/01/09 17:44:16 Found waiting C19 result with accession: 2300701224 and result: Not detected
+2023/01/09 17:44:20 Found C19 result with acession 2300701224 in Finance database
+2023/01/09 17:44:20 Found waiting C19 result with accession: 2233570035 and result: Not detected
+2023/01/09 17:44:23 Found C19R result with acession 2233570035 in Finance database
+2023/01/09 17:44:23 Found waiting C19 result with accession: 2233535698 and result: Not detected
+2023/01/09 17:44:27 Found C19R result with acession 2233535698 in Finance database
+2023/01/09 17:44:27 Found waiting C19 result with accession: 2233535638 and result: Not detected
+2023/01/09 17:44:31 Found C19R result with acession 2233535638 in Finance database
+2023/01/09 17:44:31 Found waiting C19 result with accession: 0233735041 and result: Not detected
+2023/01/09 17:44:33 No C19R result with accession 0233735041 found in Finance database
+2023/01/09 17:44:33 Found waiting C19 result with accession: 2233635238 and result: Not detected
+2023/01/09 17:44:36 Found C19R result with acession 2233635238 in Finance database
+2023/01/09 17:44:36 Now reporting
+2023/01/09 17:44:38 503 5.5.2 Need rcpt command
+2023/01/09 17:47:25 Mailer start
+2023/01/09 17:47:26 Found waiting C19 result with accession: 2300735185 and result: Not detected
+2023/01/09 17:47:29 Found C19 result with acession 2300735185 in Finance database
+2023/01/09 17:47:29 Found waiting C19 result with accession: 2300735179 and result: Not detected
+2023/01/09 17:47:32 Found C19 result with acession 2300735179 in Finance database
+2023/01/09 17:47:32 Found waiting C19 result with accession: 2300735167 and result: Detected
+2023/01/09 17:47:36 Found C19 result with acession 2300735167 in Finance database
+2023/01/09 17:47:36 Found waiting C19 result with accession: 2300695160 and result: Not detected
+2023/01/09 17:47:39 Found C19 result with acession 2300695160 in Finance database
+2023/01/09 17:47:39 Found waiting C19 result with accession: 2300735227 and result: Not detected
+2023/01/09 17:47:42 Found C19 result with acession 2300735227 in Finance database
+2023/01/09 17:47:42 Found waiting C19 result with accession: 2300695161 and result: Not detected
+2023/01/09 17:47:46 Found C19 result with acession 2300695161 in Finance database
+2023/01/09 17:47:46 Found waiting C19 result with accession: 0230069532 and result: Not detected
+2023/01/09 17:47:47 No C19 result with accession 0230069532 found in Finance database
+2023/01/09 17:47:47 Found waiting C19 result with accession: 2300701224 and result: Not detected
+2023/01/09 17:47:51 Found C19 result with acession 2300701224 in Finance database
+2023/01/09 17:47:51 Found waiting C19 result with accession: 2233570035 and result: Not detected
+2023/01/09 17:47:54 Found C19R result with acession 2233570035 in Finance database
+2023/01/09 17:47:54 Found waiting C19 result with accession: 2233535698 and result: Not detected
+2023/01/09 17:47:57 Found C19R result with acession 2233535698 in Finance database
+2023/01/09 17:47:57 Found waiting C19 result with accession: 2233535638 and result: Not detected
+2023/01/09 17:48:01 Found C19R result with acession 2233535638 in Finance database
+2023/01/09 17:48:01 Found waiting C19 result with accession: 0233735041 and result: Not detected
+2023/01/09 17:48:02 No C19R result with accession 0233735041 found in Finance database
+2023/01/09 17:48:02 Found waiting C19 result with accession: 2233635238 and result: Not detected
+2023/01/09 17:48:06 Found C19R result with acession 2233635238 in Finance database
+2023/01/09 17:48:06 Now reporting
+2023/01/09 17:48:06 No EMail configuration found for client: 20023
+2023/01/09 17:48:06 No EMail configuration found for client: 28046
+2023/01/09 17:48:06 No EMail configuration found for client: 7933
+2023/01/09 17:48:06 No EMail configuration found for client: 44981
+2023/01/09 17:48:06 Found EMail configuration for client: 36869
+2023/01/09 17:48:09 Accession 2233570035 commited
+2023/01/09 17:48:09 Send EMail to  36869
+2023/01/09 17:48:09 Found EMail configuration for client: 37282
+2023/01/09 17:48:12 Accession 2233535638 commited
+2023/01/09 17:48:12 Send EMail to  37282
+2023/01/09 17:48:12 No EMail configuration found for client: 15663
+2023/01/09 17:48:12 No EMail configuration found for client: 18006
+2023/01/09 17:48:12 No EMail configuration found for client: 38073
+2023/01/09 17:48:12 Found EMail configuration for client: 38591
+2023/01/09 17:48:16 Accession 2233535698 commited
+2023/01/09 17:48:16 Send EMail to  38591
+2023/01/09 17:48:16 Mailer end
+2023/01/09 19:24:44 Mailer start
+2023/01/09 19:24:45 Found waiting C19 result with accession: 2300735185 and result: Not detected
+2023/01/09 19:24:47 Found C19 result with acession 2300735185 in Finance database
+2023/01/09 19:24:47 Found waiting C19 result with accession: 2300735179 and result: Not detected
+2023/01/09 19:24:50 Found C19 result with acession 2300735179 in Finance database
+2023/01/09 19:24:50 Found waiting C19 result with accession: 2300735167 and result: Detected
+2023/01/09 19:24:54 Found C19 result with acession 2300735167 in Finance database
+2023/01/09 19:24:54 Found waiting C19 result with accession: 2300695160 and result: Not detected
+2023/01/09 19:24:56 Found C19 result with acession 2300695160 in Finance database
+2023/01/09 19:24:56 Found waiting C19 result with accession: 2300735227 and result: Not detected
+2023/01/09 19:24:59 Found C19 result with acession 2300735227 in Finance database
+2023/01/09 19:24:59 Found waiting C19 result with accession: 2300695161 and result: Not detected
+2023/01/09 19:25:03 Found C19 result with acession 2300695161 in Finance database
+2023/01/09 19:25:03 Found waiting C19 result with accession: 2300695323 and result: Not detected
+2023/01/09 19:25:07 Found C19 result with acession 2300695323 in Finance database
+2023/01/09 19:25:07 Found waiting C19 result with accession: 2300701224 and result: Not detected
+2023/01/09 19:25:09 Found C19 result with acession 2300701224 in Finance database
+2023/01/09 19:25:09 Found waiting C19 result with accession: 2300735248 and result: Not detected
+2023/01/09 19:25:12 Found C19 result with acession 2300735248 in Finance database
+2023/01/09 19:25:12 Found waiting C19 result with accession: 2300735249 and result: Not detected
+2023/01/09 19:25:15 Found C19 result with acession 2300735249 in Finance database
+2023/01/09 19:25:15 Found waiting C19 result with accession: 2300735236 and result: Not detected
+2023/01/09 19:25:17 Found C19 result with acession 2300735236 in Finance database
+2023/01/09 19:25:17 Found waiting C19 result with accession: 2300735245 and result: Detected
+2023/01/09 19:25:20 Found C19 result with acession 2300735245 in Finance database
+2023/01/09 19:25:20 Found waiting C19 result with accession: 2300735246 and result: Not detected
+2023/01/09 19:25:23 Found C19 result with acession 2300735246 in Finance database
+2023/01/09 19:25:23 Found waiting C19 result with accession: 2300735247 and result: Detected
+2023/01/09 19:25:25 Found C19 result with acession 2300735247 in Finance database
+2023/01/09 19:25:25 Found waiting C19 result with accession: 2300735251 and result: Detected
+2023/01/09 19:25:28 Found C19 result with acession 2300735251 in Finance database
+2023/01/09 19:25:28 Found waiting C19 result with accession: 2300735255 and result: Detected
+2023/01/09 19:25:30 Found C19 result with acession 2300735255 in Finance database
+2023/01/09 19:25:30 Found waiting C19 result with accession: 2300735250 and result: Not detected
+2023/01/09 19:25:33 Found C19 result with acession 2300735250 in Finance database
+2023/01/09 19:25:33 Found waiting C19 result with accession: 2300735244 and result: Not detected
+2023/01/09 19:25:36 Found C19 result with acession 2300735244 in Finance database
+2023/01/09 19:25:36 Found waiting C19 result with accession: 2300735252 and result: Not detected
+2023/01/09 19:25:38 Found C19 result with acession 2300735252 in Finance database
+2023/01/09 19:25:38 Found waiting C19 result with accession: 2300735243 and result: Not detected
+2023/01/09 19:25:41 Found C19 result with acession 2300735243 in Finance database
+2023/01/09 19:25:41 Found waiting C19 result with accession: 2300735253 and result: Detected
+2023/01/09 19:25:44 Found C19 result with acession 2300735253 in Finance database
+2023/01/09 19:25:44 Found waiting C19 result with accession: 2300735264 and result: Not detected
+2023/01/09 19:25:46 Found C19 result with acession 2300735264 in Finance database
+2023/01/09 19:25:46 Found waiting C19 result with accession: 2300735266 and result: Not detected
+2023/01/09 19:25:49 Found C19 result with acession 2300735266 in Finance database
+2023/01/09 19:25:49 Found waiting C19 result with accession: 2300735263 and result: Not detected
+2023/01/09 19:25:51 Found C19 result with acession 2300735263 in Finance database
+2023/01/09 19:25:51 Found waiting C19 result with accession: 2300735265 and result: Not detected
+2023/01/09 19:25:54 Found C19 result with acession 2300735265 in Finance database
+2023/01/09 19:25:54 Found waiting C19 result with accession: 2300735259 and result: Not detected
+2023/01/09 19:25:57 Found C19 result with acession 2300735259 in Finance database
+2023/01/09 19:25:57 Found waiting C19 result with accession: 2300735267 and result: Not detected
+2023/01/09 19:25:59 Found C19 result with acession 2300735267 in Finance database
+2023/01/09 19:25:59 Found waiting C19 result with accession: 2300735261 and result: Not detected
+2023/01/09 19:26:02 Found C19 result with acession 2300735261 in Finance database
+2023/01/09 19:26:02 Found waiting C19 result with accession: 2300735256 and result: Not detected
+2023/01/09 19:26:04 Found C19 result with acession 2300735256 in Finance database
+2023/01/09 19:26:04 Found waiting C19 result with accession: 2300735254 and result: Not detected
+2023/01/09 19:26:07 Found C19 result with acession 2300735254 in Finance database
+2023/01/09 19:26:07 Found waiting C19 result with accession: 2300735258 and result: Not detected
+2023/01/09 19:26:09 Found C19 result with acession 2300735258 in Finance database
+2023/01/09 19:26:09 Found waiting C19 result with accession: 2300735260 and result: Not detected
+2023/01/09 19:26:12 Found C19 result with acession 2300735260 in Finance database
+2023/01/09 19:26:12 Found waiting C19 result with accession: 2300735273 and result: Not detected
+2023/01/09 19:26:14 Found C19 result with acession 2300735273 in Finance database
+2023/01/09 19:26:14 Found waiting C19 result with accession: 2300735272 and result: Not detected
+2023/01/09 19:26:17 Found C19 result with acession 2300735272 in Finance database
+2023/01/09 19:26:17 Found waiting C19 result with accession: 2300735269 and result: Detected
+2023/01/09 19:26:19 Found C19 result with acession 2300735269 in Finance database
+2023/01/09 19:26:19 Found waiting C19 result with accession: 2300735262 and result: Detected
+2023/01/09 19:26:22 Found C19 result with acession 2300735262 in Finance database
+2023/01/09 19:26:22 Found waiting C19 result with accession: 2300735278 and result: Detected
+2023/01/09 19:26:24 Found C19 result with acession 2300735278 in Finance database
+2023/01/09 19:26:24 Found waiting C19 result with accession: 2300735277 and result: Not detected
+2023/01/09 19:26:27 Found C19 result with acession 2300735277 in Finance database
+2023/01/09 19:26:27 Found waiting C19 result with accession: 2300735268 and result: Not detected
+2023/01/09 19:26:30 Found C19 result with acession 2300735268 in Finance database
+2023/01/09 19:26:30 Found waiting C19 result with accession: 2300735270 and result: Detected
+2023/01/09 19:26:32 Found C19 result with acession 2300735270 in Finance database
+2023/01/09 19:26:32 Found waiting C19 result with accession: 2300735280 and result: Detected
+2023/01/09 19:26:35 Found C19 result with acession 2300735280 in Finance database
+2023/01/09 19:26:35 Found waiting C19 result with accession: 2300735281 and result: Not detected
+2023/01/09 19:26:37 Found C19 result with acession 2300735281 in Finance database
+2023/01/09 19:26:37 Found waiting C19 result with accession: 2300735271 and result: Not detected
+2023/01/09 19:26:40 Found C19 result with acession 2300735271 in Finance database
+2023/01/09 19:26:40 Found waiting C19 result with accession: 2300735279 and result: Not detected
+2023/01/09 19:26:43 Found C19 result with acession 2300735279 in Finance database
+2023/01/09 19:26:43 Found waiting C19 result with accession: 2300735274 and result: Not detected
+2023/01/09 19:26:45 Found C19 result with acession 2300735274 in Finance database
+2023/01/09 19:26:45 Found waiting C19 result with accession: 2300735276 and result: Detected
+2023/01/09 19:26:48 Found C19 result with acession 2300735276 in Finance database
+2023/01/09 19:26:48 Found waiting C19 result with accession: 2300735228 and result: Not detected
+2023/01/09 19:26:50 Found C19 result with acession 2300735228 in Finance database
+2023/01/09 19:26:50 Found waiting C19 result with accession: 2300735230 and result: Not detected
+2023/01/09 19:26:53 Found C19 result with acession 2300735230 in Finance database
+2023/01/09 19:26:53 Found waiting C19 result with accession: 2300735231 and result: Not detected
+2023/01/09 19:26:55 Found C19 result with acession 2300735231 in Finance database
+2023/01/09 19:26:55 Found waiting C19 result with accession: 2300735237 and result: Not detected
+2023/01/09 19:26:58 Found C19 result with acession 2300735237 in Finance database
+2023/01/09 19:26:58 Found waiting C19 result with accession: 2300735257 and result: Not detected
+2023/01/09 19:27:00 Found C19 result with acession 2300735257 in Finance database
+2023/01/09 19:27:00 Found waiting C19 result with accession: 2300735233 and result: Not detected
+2023/01/09 19:27:03 Found C19 result with acession 2300735233 in Finance database
+2023/01/09 19:27:03 Found waiting C19 result with accession: 2300735232 and result: Not detected
+2023/01/09 19:27:05 Found C19 result with acession 2300735232 in Finance database
+2023/01/09 19:27:05 Found waiting C19 result with accession: 2300735234 and result: Not detected
+2023/01/09 19:27:08 Found C19 result with acession 2300735234 in Finance database
+2023/01/09 19:27:08 Found waiting C19 result with accession: 2300735223 and result: Not detected
+2023/01/09 19:27:10 Found C19 result with acession 2300735223 in Finance database
+2023/01/09 19:27:10 Found waiting C19 result with accession: 2300735241 and result: Not detected
+2023/01/09 19:27:13 Found C19 result with acession 2300735241 in Finance database
+2023/01/09 19:27:13 Found waiting C19 result with accession: 2300735239 and result: Not detected
+2023/01/09 19:27:15 Found C19 result with acession 2300735239 in Finance database
+2023/01/09 19:27:15 Found waiting C19 result with accession: 2300735224 and result: Not detected
+2023/01/09 19:27:18 Found C19 result with acession 2300735224 in Finance database
+2023/01/09 19:27:18 Found waiting C19 result with accession: 2300735240 and result: Detected
+2023/01/09 19:27:20 Found C19 result with acession 2300735240 in Finance database
+2023/01/09 19:27:20 Found waiting C19 result with accession: 2300735275 and result: Not detected
+2023/01/09 19:27:23 Found C19 result with acession 2300735275 in Finance database
+2023/01/09 19:27:23 Found waiting C19 result with accession: 2300735078 and result: Not detected
+2023/01/09 19:27:25 Found C19 result with acession 2300735078 in Finance database
+2023/01/09 19:27:25 Found waiting C19 result with accession: 2300770003 and result: Not detected
+2023/01/09 19:27:28 Found C19 result with acession 2300770003 in Finance database
+2023/01/09 19:27:28 Found waiting C19 result with accession: 2300770007 and result: Not detected
+2023/01/09 19:27:30 Found C19 result with acession 2300770007 in Finance database
+2023/01/09 19:27:30 Found waiting C19 result with accession: 2300700952 and result: Not detected
+2023/01/09 19:27:33 Found C19 result with acession 2300700952 in Finance database
+2023/01/09 19:27:33 Found waiting C19 result with accession: 2300735074 and result: Not detected
+2023/01/09 19:27:35 Found C19 result with acession 2300735074 in Finance database
+2023/01/09 19:27:35 Found waiting C19 result with accession: 2300735080 and result: Not detected
+2023/01/09 19:27:38 Found C19 result with acession 2300735080 in Finance database
+2023/01/09 19:27:38 Found waiting C19 result with accession: 2300735085 and result: Not detected
+2023/01/09 19:27:40 Found C19 result with acession 2300735085 in Finance database
+2023/01/09 19:27:40 Found waiting C19 result with accession: 2300735088 and result: Not detected
+2023/01/09 19:27:42 Found C19 result with acession 2300735088 in Finance database
+2023/01/09 19:27:42 Found waiting C19 result with accession: 2300770001 and result: Not detected
+2023/01/09 19:27:45 Found C19 result with acession 2300770001 in Finance database
+2023/01/09 19:27:45 Found waiting C19 result with accession: 2300770008 and result: Not detected
+2023/01/09 19:27:47 Found C19 result with acession 2300770008 in Finance database
+2023/01/09 19:27:47 Found waiting C19 result with accession: 2300770000 and result: Not detected
+2023/01/09 19:27:50 Found C19 result with acession 2300770000 in Finance database
+2023/01/09 19:27:50 Found waiting C19 result with accession: 2300770002 and result: Not detected
+2023/01/09 19:27:53 Found C19 result with acession 2300770002 in Finance database
+2023/01/09 19:27:53 Found waiting C19 result with accession: 2300770005 and result: Not detected
+2023/01/09 19:27:55 Found C19 result with acession 2300770005 in Finance database
+2023/01/09 19:27:55 Found waiting C19 result with accession: 2300735086 and result: Not detected
+2023/01/09 19:27:58 Found C19 result with acession 2300735086 in Finance database
+2023/01/09 19:27:58 Found waiting C19 result with accession: 2300735084 and result: Not detected
+2023/01/09 19:28:00 Found C19 result with acession 2300735084 in Finance database
+2023/01/09 19:28:00 Found waiting C19 result with accession: 2300735077 and result: Detected
+2023/01/09 19:28:03 Found C19 result with acession 2300735077 in Finance database
+2023/01/09 19:28:03 Found waiting C19 result with accession: 2300735108 and result: Detected
+2023/01/09 19:28:05 Found C19 result with acession 2300735108 in Finance database
+2023/01/09 19:28:05 Found waiting C19 result with accession: 2300735141 and result: Not detected
+2023/01/09 19:28:08 Found C19 result with acession 2300735141 in Finance database
+2023/01/09 19:28:08 Found waiting C19 result with accession: 2300735112 and result: Not detected
+2023/01/09 19:28:10 Found C19 result with acession 2300735112 in Finance database
+2023/01/09 19:28:10 Found waiting C19 result with accession: 2300735114 and result: Not detected
+2023/01/09 19:28:13 Found C19 result with acession 2300735114 in Finance database
+2023/01/09 19:28:13 Found waiting C19 result with accession: 2300735109 and result: Not detected
+2023/01/09 19:28:15 Found C19 result with acession 2300735109 in Finance database
+2023/01/09 19:28:15 Found waiting C19 result with accession: 2300735106 and result: Not detected
+2023/01/09 19:28:17 Found C19 result with acession 2300735106 in Finance database
+2023/01/09 19:28:17 Found waiting C19 result with accession: 2300735111 and result: Not detected
+2023/01/09 19:28:20 Found C19 result with acession 2300735111 in Finance database
+2023/01/09 19:28:20 Found waiting C19 result with accession: 2300735101 and result: Not detected
+2023/01/09 19:28:22 Found C19 result with acession 2300735101 in Finance database
+2023/01/09 19:28:22 Found waiting C19 result with accession: 2300735110 and result: Not detected
+2023/01/09 19:28:24 Found C19 result with acession 2300735110 in Finance database
+2023/01/09 19:28:24 Found waiting C19 result with accession: 2300735092 and result: Not detected
+2023/01/09 19:28:27 Found C19 result with acession 2300735092 in Finance database
+2023/01/09 19:28:27 Found waiting C19 result with accession: 2300735091 and result: Not detected
+2023/01/09 19:28:29 Found C19 result with acession 2300735091 in Finance database
+2023/01/09 19:28:29 Found waiting C19 result with accession: 2300735090 and result: Not detected
+2023/01/09 19:28:32 Found C19 result with acession 2300735090 in Finance database
+2023/01/09 19:28:32 Found waiting C19 result with accession: 2300735089 and result: Not detected
+2023/01/09 19:28:34 Found C19 result with acession 2300735089 in Finance database
+2023/01/09 19:28:34 Found waiting C19 result with accession: 2300735095 and result: Not detected
+2023/01/09 19:28:36 Found C19 result with acession 2300735095 in Finance database
+2023/01/09 19:28:36 Found waiting C19 result with accession: 2300735105 and result: Not detected
+2023/01/09 19:28:39 Found C19 result with acession 2300735105 in Finance database
+2023/01/09 19:28:39 Found waiting C19 result with accession: 2300735113 and result: Not detected
+2023/01/09 19:28:41 Found C19 result with acession 2300735113 in Finance database
+2023/01/09 19:28:41 Found waiting C19 result with accession: 2300735094 and result: Not detected
+2023/01/09 19:28:44 Found C19 result with acession 2300735094 in Finance database
+2023/01/09 19:28:44 Found waiting C19 result with accession: 2300735103 and result: Not detected
+2023/01/09 19:28:46 Found C19 result with acession 2300735103 in Finance database
+2023/01/09 19:28:46 Found waiting C19 result with accession: 2300735099 and result: Not detected
+2023/01/09 19:28:48 Found C19 result with acession 2300735099 in Finance database
+2023/01/09 19:28:48 Found waiting C19 result with accession: 2300735115 and result: Not detected
+2023/01/09 19:28:51 Found C19 result with acession 2300735115 in Finance database
+2023/01/09 19:28:51 Found waiting C19 result with accession: 2300735098 and result: Not detected
+2023/01/09 19:28:53 Found C19 result with acession 2300735098 in Finance database
+2023/01/09 19:28:53 Found waiting C19 result with accession: 2300735104 and result: Not detected
+2023/01/09 19:28:55 Found C19 result with acession 2300735104 in Finance database
+2023/01/09 19:28:55 Found waiting C19 result with accession: 2300735107 and result: Not detected
+2023/01/09 19:28:58 Found C19 result with acession 2300735107 in Finance database
+2023/01/09 19:28:58 Found waiting C19 result with accession: 2300735097 and result: Not detected
+2023/01/09 19:29:00 Found C19 result with acession 2300735097 in Finance database
+2023/01/09 19:29:00 Found waiting C19 result with accession: 2300735096 and result: Not detected
+2023/01/09 19:29:02 Found C19 result with acession 2300735096 in Finance database
+2023/01/09 19:29:02 Found waiting C19 result with accession: 2300735102 and result: ON
+2023/01/09 19:29:04 No C19 result with accession 2300735102 found in Finance database
+2023/01/09 19:29:04 Found waiting C19 result with accession: 2300735100 and result: ON
+2023/01/09 19:29:05 No C19 result with accession 2300735100 found in Finance database
+2023/01/09 19:29:05 Found waiting C19 result with accession: 2300700858 and result: Not detected
+2023/01/09 19:29:07 No C19 result with accession 2300700858 found in Finance database
+2023/01/09 19:29:07 Found waiting C19 result with accession: 2300700670 and result: Not detected
+2023/01/09 19:29:09 Found C19 result with acession 2300700670 in Finance database
+2023/01/09 19:29:09 Found waiting C19 result with accession: 2300700578 and result: Not detected
+2023/01/09 19:29:12 Found C19 result with acession 2300700578 in Finance database
+2023/01/09 19:29:12 Found waiting C19 result with accession: 2300700718 and result: Not detected
+2023/01/09 19:29:14 Found C19 result with acession 2300700718 in Finance database
+2023/01/09 19:29:14 Found waiting C19 result with accession: 2300735160 and result: Not detected
+2023/01/09 19:29:16 Found C19 result with acession 2300735160 in Finance database
+2023/01/09 19:29:16 Found waiting C19 result with accession: 2300735159 and result: Not detected
+2023/01/09 19:29:18 Found C19 result with acession 2300735159 in Finance database
+2023/01/09 19:29:18 Found waiting C19 result with accession: 2300735158 and result: Not detected
+2023/01/09 19:29:21 Found C19 result with acession 2300735158 in Finance database
+2023/01/09 19:29:21 Found waiting C19 result with accession: 2300735131 and result: Not detected
+2023/01/09 19:29:23 Found C19 result with acession 2300735131 in Finance database
+2023/01/09 19:29:23 Found waiting C19 result with accession: 2300735136 and result: Not detected
+2023/01/09 19:29:25 Found C19 result with acession 2300735136 in Finance database
+2023/01/09 19:29:25 Found waiting C19 result with accession: 2300735163 and result: Not detected
+2023/01/09 19:29:28 Found C19 result with acession 2300735163 in Finance database
+2023/01/09 19:29:28 Found waiting C19 result with accession: 2300735137 and result: Not detected
+2023/01/09 19:29:30 Found C19 result with acession 2300735137 in Finance database
+2023/01/09 19:29:30 Found waiting C19 result with accession: 2300735135 and result: Not detected
+2023/01/09 19:29:32 Found C19 result with acession 2300735135 in Finance database
+2023/01/09 19:29:32 Found waiting C19 result with accession: 2300735145 and result: Not detected
+2023/01/09 19:29:34 Found C19 result with acession 2300735145 in Finance database
+2023/01/09 19:29:34 Found waiting C19 result with accession: 2300735140 and result: Not detected
+2023/01/09 19:29:37 Found C19 result with acession 2300735140 in Finance database
+2023/01/09 19:29:37 Found waiting C19 result with accession: 2300735138 and result: Not detected
+2023/01/09 19:29:39 Found C19 result with acession 2300735138 in Finance database
+2023/01/09 19:29:39 Found waiting C19 result with accession: 2300735153 and result: Not detected
+2023/01/09 19:29:42 Found C19 result with acession 2300735153 in Finance database
+2023/01/09 19:29:42 Found waiting C19 result with accession: 2300735119 and result: Not detected
+2023/01/09 19:29:44 Found C19 result with acession 2300735119 in Finance database
+2023/01/09 19:29:44 Found waiting C19 result with accession: 2300735124 and result: Not detected
+2023/01/09 19:29:46 Found C19 result with acession 2300735124 in Finance database
+2023/01/09 19:29:46 Found waiting C19 result with accession: 2300735134 and result: Not detected
+2023/01/09 19:29:48 Found C19 result with acession 2300735134 in Finance database
+2023/01/09 19:29:48 Found waiting C19 result with accession: 2300735118 and result: Not detected
+2023/01/09 19:29:51 Found C19 result with acession 2300735118 in Finance database
+2023/01/09 19:29:51 Found waiting C19 result with accession: 2300735130 and result: Not detected
+2023/01/09 19:29:53 Found C19 result with acession 2300735130 in Finance database
+2023/01/09 19:29:53 Found waiting C19 result with accession: 2300735128 and result: Not detected
+2023/01/09 19:29:55 Found C19 result with acession 2300735128 in Finance database
+2023/01/09 19:29:55 Found waiting C19 result with accession: 2300735117 and result: Not detected
+2023/01/09 19:29:57 Found C19 result with acession 2300735117 in Finance database
+2023/01/09 19:29:57 Found waiting C19 result with accession: 2300735125 and result: Not detected
+2023/01/09 19:30:00 Found C19 result with acession 2300735125 in Finance database
+2023/01/09 19:30:00 Found waiting C19 result with accession: 2300735139 and result: Not detected
+2023/01/09 19:30:02 Found C19 result with acession 2300735139 in Finance database
+2023/01/09 19:30:02 Found waiting C19 result with accession: 2300735133 and result: Not detected
+2023/01/09 19:30:04 Found C19 result with acession 2300735133 in Finance database
+2023/01/09 19:30:04 Found waiting C19 result with accession: 2300735151 and result: ON
+2023/01/09 19:30:06 No C19 result with accession 2300735151 found in Finance database
+2023/01/09 19:30:06 Found waiting C19 result with accession: 2300735143 and result: Not detected
+2023/01/09 19:30:09 Found C19 result with acession 2300735143 in Finance database
+2023/01/09 19:30:09 Found waiting C19 result with accession: 2300735132 and result: Not detected
+2023/01/09 19:30:12 Found C19 result with acession 2300735132 in Finance database
+2023/01/09 19:30:12 Found waiting C19 result with accession: 2300735123 and result: Not detected
+2023/01/09 19:30:14 Found C19 result with acession 2300735123 in Finance database
+2023/01/09 19:30:14 Found waiting C19 result with accession: 2300735122 and result: Not detected
+2023/01/09 19:30:17 Found C19 result with acession 2300735122 in Finance database
+2023/01/09 19:30:17 Found waiting C19 result with accession: 2300735121 and result: Not detected
+2023/01/09 19:30:19 Found C19 result with acession 2300735121 in Finance database
+2023/01/09 19:30:19 Found waiting C19 result with accession: 2300735164 and result: Not detected
+2023/01/09 19:30:21 Found C19 result with acession 2300735164 in Finance database
+2023/01/09 19:30:21 Found waiting C19 result with accession: 2300735120 and result: Not detected
+2023/01/09 19:30:24 Found C19 result with acession 2300735120 in Finance database
+2023/01/09 19:30:24 Found waiting C19 result with accession: 2300735149 and result: Not detected
+2023/01/09 19:30:26 Found C19 result with acession 2300735149 in Finance database
+2023/01/09 19:30:26 Found waiting C19 result with accession: 2300735162 and result: Not detected
+2023/01/09 19:30:28 Found C19 result with acession 2300735162 in Finance database
+2023/01/09 19:30:28 Found waiting C19 result with accession: 2300735116 and result: Not detected
+2023/01/09 19:30:30 Found C19 result with acession 2300735116 in Finance database
+2023/01/09 19:30:30 Found waiting C19 result with accession: 2300735161 and result: Not detected
+2023/01/09 19:30:33 Found C19 result with acession 2300735161 in Finance database
+2023/01/09 19:30:33 Found waiting C19 result with accession: 2300735148 and result: Not detected
+2023/01/09 19:30:35 Found C19 result with acession 2300735148 in Finance database
+2023/01/09 19:30:35 Found waiting C19 result with accession: 2300735150 and result: Not detected
+2023/01/09 19:30:38 Found C19 result with acession 2300735150 in Finance database
+2023/01/09 19:30:38 Found waiting C19 result with accession: 2300735155 and result: Not detected
+2023/01/09 19:30:40 Found C19 result with acession 2300735155 in Finance database
+2023/01/09 19:30:40 Found waiting C19 result with accession: 2300735156 and result: Not detected
+2023/01/09 19:30:42 Found C19 result with acession 2300735156 in Finance database
+2023/01/09 19:30:42 Found waiting C19 result with accession: 2300735146 and result: Not detected
+2023/01/09 19:30:45 Found C19 result with acession 2300735146 in Finance database
+2023/01/09 19:30:45 Found waiting C19 result with accession: 2300735154 and result: Not detected
+2023/01/09 19:30:47 Found C19 result with acession 2300735154 in Finance database
+2023/01/09 19:30:47 Found waiting C19 result with accession: 2300735129 and result: Not detected
+2023/01/09 19:30:49 Found C19 result with acession 2300735129 in Finance database
+2023/01/09 19:30:49 Found waiting C19 result with accession: 2300735126 and result: Not detected
+2023/01/09 19:30:52 Found C19 result with acession 2300735126 in Finance database
+2023/01/09 19:30:52 Found waiting C19 result with accession: 2300735157 and result: Not detected
+2023/01/09 19:30:55 Found C19 result with acession 2300735157 in Finance database
+2023/01/09 19:30:55 Found waiting C19 result with accession: 2300735127 and result: Not detected
+2023/01/09 19:30:57 Found C19 result with acession 2300735127 in Finance database
+2023/01/09 19:31:01 Found waiting C19 result with accession: 2233635350 and result: Not detected
+2023/01/09 19:31:03 Found C19 result with acession 2233635350 in Finance database
+2023/01/09 19:31:03 Found waiting C19 result with accession: 2233635300 and result: Not detected
+2023/01/09 19:31:06 Found C19 result with acession 2233635300 in Finance database
+2023/01/09 19:31:06 Found waiting C19 result with accession: 2233635355 and result: Not detected
+2023/01/09 19:31:08 Found C19 result with acession 2233635355 in Finance database
+2023/01/09 19:31:08 Found waiting C19 result with accession: 2233635364 and result: Not detected
+2023/01/09 19:31:10 Found C19 result with acession 2233635364 in Finance database
+2023/01/09 19:31:10 Found waiting C19 result with accession: 2233635346 and result: Not detected
+2023/01/09 19:31:12 Found C19 result with acession 2233635346 in Finance database
+2023/01/09 19:31:12 Found waiting C19 result with accession: 2233635343 and result: Not detected
+2023/01/09 19:31:14 Found C19 result with acession 2233635343 in Finance database
+2023/01/09 19:31:14 Found waiting C19 result with accession: 2233635296 and result: Not detected
+2023/01/09 19:31:16 Found C19 result with acession 2233635296 in Finance database
+2023/01/09 19:31:16 Found waiting C19 result with accession: 2233635363 and result: Not detected
+2023/01/09 19:31:18 Found C19 result with acession 2233635363 in Finance database
+2023/01/09 19:31:18 Found waiting C19 result with accession: 2233635347 and result: Not detected
+2023/01/09 19:31:20 Found C19 result with acession 2233635347 in Finance database
+2023/01/09 19:31:20 Found waiting C19 result with accession: 2233635362 and result: Not detected
+2023/01/09 19:31:23 Found C19 result with acession 2233635362 in Finance database
+2023/01/09 19:31:23 Found waiting C19 result with accession: 2233635342 and result: Not detected
+2023/01/09 19:31:25 Found C19 result with acession 2233635342 in Finance database
+2023/01/09 19:31:25 Found waiting C19 result with accession: 2233635468 and result: Not detected
+2023/01/09 19:31:27 Found C19 result with acession 2233635468 in Finance database
+2023/01/09 19:31:27 Found waiting C19 result with accession: 2233635476 and result: Not detected
+2023/01/09 19:31:29 Found C19 result with acession 2233635476 in Finance database
+2023/01/09 19:31:29 Found waiting C19 result with accession: 2233670017 and result: Not detected
+2023/01/09 19:31:31 Found C19 result with acession 2233670017 in Finance database
+2023/01/09 19:31:31 Found waiting C19 result with accession: 2233635426 and result: Not detected
+2023/01/09 19:31:33 Found C19 result with acession 2233635426 in Finance database
+2023/01/09 19:31:33 Found waiting C19 result with accession: 2233635463 and result: Detected
+2023/01/09 19:31:35 Found C19 result with acession 2233635463 in Finance database
+2023/01/09 19:31:35 Found waiting C19 result with accession: 2233635402 and result: Not detected
+2023/01/09 19:31:37 Found C19 result with acession 2233635402 in Finance database
+2023/01/09 19:31:37 Found waiting C19 result with accession: 2233635416 and result: Not detected
+2023/01/09 19:31:39 Found C19 result with acession 2233635416 in Finance database
+2023/01/09 19:31:39 Found waiting C19 result with accession: 2233635377 and result: Not detected
+2023/01/09 19:31:41 Found C19 result with acession 2233635377 in Finance database
+2023/01/09 19:31:41 Found waiting C19 result with accession: 2233635418 and result: Not detected
+2023/01/09 19:31:43 Found C19 result with acession 2233635418 in Finance database
+2023/01/09 19:31:43 Found waiting C19 result with accession: 2233635396 and result: Not detected
+2023/01/09 19:31:46 Found C19 result with acession 2233635396 in Finance database
+2023/01/09 19:31:46 Found waiting C19 result with accession: 2233670020 and result: Not detected
+2023/01/09 19:31:48 Found C19 result with acession 2233670020 in Finance database
+2023/01/09 19:31:48 Found waiting C19 result with accession: 2233635439 and result: Not detected
+2023/01/09 19:31:50 Found C19 result with acession 2233635439 in Finance database
+2023/01/09 19:31:50 Found waiting C19 result with accession: 2233635406 and result: Not detected
+2023/01/09 19:31:52 Found C19 result with acession 2233635406 in Finance database
+2023/01/09 19:31:52 Found waiting C19 result with accession: 2233670015 and result: Not detected
+2023/01/09 19:31:54 Found C19 result with acession 2233670015 in Finance database
+2023/01/09 19:31:54 Found waiting C19 result with accession: 2233635444 and result: Not detected
+2023/01/09 19:31:56 Found C19 result with acession 2233635444 in Finance database
+2023/01/09 19:31:56 Found waiting C19 result with accession: 2233635479 and result: Detected
+2023/01/09 19:31:59 Found C19 result with acession 2233635479 in Finance database
+2023/01/09 19:31:59 Found waiting C19 result with accession: 2233635467 and result: Detected
+2023/01/09 19:32:01 Found C19 result with acession 2233635467 in Finance database
+2023/01/09 19:32:01 Found waiting C19 result with accession: 2233635469 and result: Not detected
+2023/01/09 19:32:03 Found C19 result with acession 2233635469 in Finance database
+2023/01/09 19:32:03 Found waiting C19 result with accession: 2233635387 and result: Not detected
+2023/01/09 19:32:05 Found C19 result with acession 2233635387 in Finance database
+2023/01/09 19:32:05 Found waiting C19 result with accession: 2233635384 and result: Not detected
+2023/01/09 19:32:07 Found C19 result with acession 2233635384 in Finance database
+2023/01/09 19:32:07 Found waiting C19 result with accession: 2233635373 and result: Not detected
+2023/01/09 19:32:09 Found C19 result with acession 2233635373 in Finance database
+2023/01/09 19:32:09 Found waiting C19 result with accession: 2233635410 and result: Not detected
+2023/01/09 19:32:11 Found C19 result with acession 2233635410 in Finance database
+2023/01/09 19:32:11 Found waiting C19 result with accession: 2233635478 and result: Not detected
+2023/01/09 19:32:13 Found C19 result with acession 2233635478 in Finance database
+2023/01/09 19:32:13 Found waiting C19 result with accession: 2233635380 and result: Not detected
+2023/01/09 19:32:14 Found C19 result with acession 2233635380 in Finance database
+2023/01/09 19:32:14 Found waiting C19 result with accession: 2233635481 and result: ON
+2023/01/09 19:32:16 No C19 result with accession 2233635481 found in Finance database
+2023/01/09 19:32:16 Found waiting C19 result with accession: 2233635448 and result: Not detected
+2023/01/09 19:32:18 Found C19 result with acession 2233635448 in Finance database
+2023/01/09 19:32:18 Found waiting C19 result with accession: 2233635374 and result: Not detected
+2023/01/09 19:32:19 Found C19 result with acession 2233635374 in Finance database
+2023/01/09 19:32:19 Found waiting C19 result with accession: 2233635424 and result: Not detected
+2023/01/09 19:32:21 Found C19 result with acession 2233635424 in Finance database
+2023/01/09 19:32:21 Found waiting C19 result with accession: 2233635427 and result: Detected
+2023/01/09 19:32:23 Found C19 result with acession 2233635427 in Finance database
+2023/01/09 19:32:23 Found waiting C19 result with accession: 2233635379 and result: Not detected
+2023/01/09 19:32:25 Found C19 result with acession 2233635379 in Finance database
+2023/01/09 19:32:25 Found waiting C19 result with accession: 2233635408 and result: Not detected
+2023/01/09 19:32:27 Found C19 result with acession 2233635408 in Finance database
+2023/01/09 19:32:27 Found waiting C19 result with accession: 2233670016 and result: Detected
+2023/01/09 19:32:29 Found C19 result with acession 2233670016 in Finance database
+2023/01/09 19:32:29 Found waiting C19 result with accession: 2233635409 and result: Not detected
+2023/01/09 19:32:31 Found C19 result with acession 2233635409 in Finance database
+2023/01/09 19:32:31 Found waiting C19 result with accession: 2233635388 and result: Not detected
+2023/01/09 19:32:32 Found C19 result with acession 2233635388 in Finance database
+2023/01/09 19:32:32 Found waiting C19 result with accession: 2233635423 and result: Detected
+2023/01/09 19:32:34 Found C19 result with acession 2233635423 in Finance database
+2023/01/09 19:32:34 Found waiting C19 result with accession: 2233635383 and result: Not detected
+2023/01/09 19:32:36 Found C19 result with acession 2233635383 in Finance database
+2023/01/09 19:32:36 Found waiting C19 result with accession: 2233635397 and result: Not detected
+2023/01/09 19:32:37 No C19 result with accession 2233635397 found in Finance database
+2023/01/09 19:32:37 Found waiting C19 result with accession: 2233635453 and result: Not detected
+2023/01/09 19:32:40 Found C19 result with acession 2233635453 in Finance database
+2023/01/09 19:32:40 Found waiting C19 result with accession: 2233635430 and result: Detected
+2023/01/09 19:32:42 Found C19 result with acession 2233635430 in Finance database
+2023/01/09 19:32:42 Found waiting C19 result with accession: 2233635435 and result: Not detected
+2023/01/09 19:32:44 Found C19 result with acession 2233635435 in Finance database
+2023/01/09 19:32:44 Found waiting C19 result with accession: 2233635395 and result: Not detected
+2023/01/09 19:32:46 Found C19 result with acession 2233635395 in Finance database
+2023/01/09 19:32:46 Found waiting C19 result with accession: 2233635399 and result: Not detected
+2023/01/09 19:32:47 Found C19 result with acession 2233635399 in Finance database
+2023/01/09 19:32:47 Found waiting C19 result with accession: 2233635277 and result: Not detected
+2023/01/09 19:32:49 Found C19 result with acession 2233635277 in Finance database
+2023/01/09 19:32:49 Found waiting C19 result with accession: 2233635268 and result: Not detected
+2023/01/09 19:32:51 Found C19 result with acession 2233635268 in Finance database
+2023/01/09 19:32:51 Found waiting C19 result with accession: 2233635286 and result: Not detected
+2023/01/09 19:32:53 Found C19 result with acession 2233635286 in Finance database
+2023/01/09 19:32:53 Found waiting C19 result with accession: 2233635405 and result: Not detected
+2023/01/09 19:32:55 Found C19 result with acession 2233635405 in Finance database
+2023/01/09 19:32:55 Found waiting C19 result with accession: 2233635276 and result: Not detected
+2023/01/09 19:32:57 Found C19 result with acession 2233635276 in Finance database
+2023/01/09 19:32:57 Found waiting C19 result with accession: 2233635411 and result: Not detected
+2023/01/09 19:32:58 Found C19 result with acession 2233635411 in Finance database
+2023/01/09 19:32:58 Found waiting C19 result with accession: 2233635278 and result: Not detected

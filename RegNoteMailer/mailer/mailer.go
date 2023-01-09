@@ -6,7 +6,6 @@ import (
 	"html/template"
 	"log"
 	"net/smtp"
-	"strings"
 )
 
 type Mailer struct {
@@ -33,15 +32,7 @@ func New() *Mailer {
 	}
 }
 
-func (m *Mailer) SendMail(body string, subject string, to []string, cc []string, bcc []string) {
-
-	type Msg struct {
-		To      []string
-		Cc      []string
-		Bcc     []string
-		Subject string
-		Body    string
-	}
+func (m *Mailer) SendMail(body string, to []string, cc []string, bcc []string) {
 
 	auth := LoginAuth(m.conf.UserName, m.conf.Password)
 
@@ -73,64 +64,30 @@ func (m *Mailer) SendMail(body string, subject string, to []string, cc []string,
 		}
 	}
 
+	for _, s := range cc {
+		if err = c.Rcpt(s); err != nil {
+			log.Panic(err)
+		}
+	}
+
+	for _, s := range bcc {
+		if err = c.Rcpt(s); err != nil {
+			log.Panic(err)
+		}
+	}
+
 	// Data
 	w, err := c.Data()
 	if err != nil {
 		log.Panic(err)
 	}
 
-	msg := Msg{
-		To:      to,
-		Cc:      cc,
-		Bcc:     bcc,
-		Subject: subject,
-		Body:    body,
-	}
-
-	sb := strings.Builder{}
-
-	sb.WriteString("To:")
-	for i, to_ := range msg.To {
-		if i == 0 {
-			sb.WriteString(to_)
-		} else {
-			sb.WriteString(";" + to_)
-		}
-	}
-	sb.WriteString("\n")
-
-	sb.WriteString("Cc:")
-	for i, cc_ := range msg.Cc {
-		if i == 0 {
-			sb.WriteString(cc_)
-		} else {
-			sb.WriteString(";" + cc_)
-		}
-	}
-	sb.WriteString("\n")
-
-	sb.WriteString("Bcc:")
-	for i, bcc_ := range msg.Bcc {
-		if i == 0 {
-			sb.WriteString(bcc_)
-		} else {
-			sb.WriteString(";" + bcc_)
-		}
-	}
-
-	sb.WriteString("\n")
-	sb.WriteString("Subject: " + msg.Subject + "\n")
-	sb.WriteString("MIME-version: 1.0;\nContent-Type: text/html; charset=\"UTF-8\";\n\n")
-	sb.WriteString(body)
-
-	tempText := sb.String()
-
-	tmpl, err := template.New("test").Parse(tempText)
+	tmpl, err := template.New("test").Parse(body)
 	if err != nil {
 		panic(err)
 	}
 
-	err = tmpl.Execute(w, msg)
+	err = tmpl.Execute(w, nil)
 	if err != nil {
 		log.Panic(err)
 	}

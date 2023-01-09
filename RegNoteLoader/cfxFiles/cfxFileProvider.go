@@ -159,14 +159,16 @@ func interpretTestResult(r string) string {
 // DumpTests dump tests to table
 func DumpTests(tests []RawTest) error {
 
-	sb := strings.Builder{}
+	cmd := "insert or ignore into RESULTS (FILENAME, ACCESSION, TESTNAME, TESTRESULT, DT, IS_PROCESSED) values (?,?,?,?,?,?)"
+
 	for _, test := range tests {
 		log.Printf("Found test %v, %v, %v",
 			test.Accession,
 			test.TestName,
-			test.TestResult)
-		cmd := fmt.Sprintf(
-			"insert into RESULTS (FILENAME, ACCESSION, TESTNAME, TESTRESULT, DT, IS_PROCESSED) values ('%v','%v','%v','%v','%v','%v');\r\n",
+			test.TestResult,
+		)
+		stmt, err := LiteDB.Prepare(cmd)
+		_, err = stmt.Exec(
 			test.Filename,
 			test.Accession,
 			test.TestName,
@@ -174,11 +176,9 @@ func DumpTests(tests []RawTest) error {
 			time.Now().Format("2006-01-02 15:04:05"),
 			0,
 		)
-		sb.WriteString(cmd)
-	}
-	_, err := LiteDB.Exec(sb.String())
-	if err != nil {
-		return err
+		if err != nil {
+			return err
+		}
 	}
 	return nil
 }

@@ -167,17 +167,21 @@ func DumpTests(tests []RawTest) error {
 			test.TestName,
 			test.TestResult,
 		)
-		stmt, err := LiteDB.Prepare(cmd)
-		_, err = stmt.Exec(
-			test.Filename,
-			test.Accession,
-			test.TestName,
-			test.TestResult,
-			time.Now().Format("2006-01-02 15:04:05"),
-			0,
-		)
-		if err != nil {
-			return err
+
+		switch test.TestResult {
+		case "Detected", "Inconclusive", "Invalid":
+			stmt, err := LiteDB.Prepare(cmd)
+			_, err = stmt.Exec(
+				test.Filename,
+				test.Accession,
+				test.TestName,
+				test.TestResult,
+				time.Now().Format("2006-01-02 15:04:05"),
+				0,
+			)
+			if err != nil {
+				return err
+			}
 		}
 	}
 	return nil
